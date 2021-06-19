@@ -1,10 +1,20 @@
+import React, { useState, useEffect } from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Home from "./components/Home/home.jsx";
+import NavBar from './components/common/Navbar';
+import Footer from './components/common/Footer';
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>This is react app!</h1>
-    </div>
+    <BrowserRouter>
+      <NavBar />
+      <Switch>
+        <Route path="/" exact component={Home} />
+      </Switch>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
