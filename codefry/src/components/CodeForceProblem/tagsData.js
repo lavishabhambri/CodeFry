@@ -1,4 +1,4 @@
-const tags1=[
+const tags=[
     {name:"implementation"},
     {name:"math"},
     {name:"greedy"},
@@ -10,9 +10,7 @@ const tags1=[
     {name:"sortings"},
     {name:"binary search"},
     {name:"dfs and similar"},
-    {name:"trees"}
-];
-const tags2=[
+    {name:"trees"},
     {name:"string"},
     {name:"number theory"},
     {name:"*special"},
@@ -24,9 +22,7 @@ const tags2=[
     {name:"probabilities"},
     {name:"divide and conquer"},
     {name:"hashing"},
-    {name:"games"}
-];
-const tags3=[
+    {name:"games"},
     {name:"flows"},
     {name:"interactive"},
     {name:"string suffix structure"},
@@ -40,4 +36,4 @@ const tags3=[
     {name:"schedules"}
 ];
 
-export {tags1,tags2,tags3};
+export default tags;
