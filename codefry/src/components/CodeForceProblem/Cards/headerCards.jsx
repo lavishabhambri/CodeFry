@@ -1,17 +1,12 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import "../CSS/HeaderCards.css";
+import FetchData from "../ProblemSets/APIs_Data.jsx";
 
 
-function handleClick(tagTitle,qestionId)
-{
-    console.log(tagTitle);
-    console.log(qestionId);
-}
 
-
-function HeaderCards(props) {
+const HeaderCards = (props) => {
     return (
-        <div onClick={handleClick(props.title)} className="headerCards">
+        <div onClick={() => new FetchData(props.title)} className="headerCards">
             {props.title}
         </div>
     )
