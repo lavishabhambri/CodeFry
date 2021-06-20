@@ -26,7 +26,7 @@ function App() {
       }
     }
     Start();
-  });
+  }, []);
   return (
     <div>
       <NavBar user={user} />
