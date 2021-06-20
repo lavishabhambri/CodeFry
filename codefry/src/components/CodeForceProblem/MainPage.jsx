@@ -2,7 +2,7 @@ import React from 'react'
 import "./CSS/MainPage.css";
 import { useEffect } from 'react';
 import fetchData from "./ProblemSets/APIs_Data";
-import {Tags1Component,Tags2Component,Tags3Component} from './TagsComponent';
+import TagsComponent from './TagsComponent';
 
 // fetchData();
 
@@ -14,9 +14,7 @@ function MainPage() {
 
     return (
         <div>
-            <Tags1Component />
-            <Tags2Component />
-            <Tags3Component />
+            <TagsComponent />
         </div>
     )
 }
