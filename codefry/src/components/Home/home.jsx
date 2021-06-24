@@ -1,12 +1,10 @@
 import React from 'react'
 import './home.css';
-import MainPage from "../CodeForceProblem/MainPage";
+import DisplayTags from "../ProblemRow"
 
 function home() {
     return (
-        <div>
-            <MainPage />
-        </div>
+        <DisplayTags />
     )
 }
 

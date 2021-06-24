@@ -1,0 +1,37 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-item{
+    font-size: 18px;
+    text-decoration: none; 
+    margin-left: 20px;  
+}
+
+.navbar-item:hover{
+    color: #5BC0DE;
+}
+
+.navbar-item1{
+    font-size: 18px;
+    text-decoration: none; 
+    margin-left: 550px;
+}
+
+.navbar-item1:hover{
+    text-decoration: none;
+    color: #5BC0DE;
+}
+
+.no-decoration:hover{
+    text-decoration: none;
+}
+
+#navbar-button{
+    margin: 10px auto auto 20px;
+    background-color:#5BC0DE;
+}
+
+
+
+
