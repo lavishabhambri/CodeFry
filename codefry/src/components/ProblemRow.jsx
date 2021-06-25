@@ -7,7 +7,7 @@ import "./../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 function DisplayTags () {
     return (
-        <div>
+        <div style={{backgroundColor: '#ecf0f3'}}>
         <div className="tags-style-class">
             {tags.map((tag, index) => {
                 const tagTitle = tag.name;
@@ -29,29 +29,16 @@ function handleClickOnTags(tagName){
             console.log("Fetched data successfully")
 
             const results = searchResults.result.problems;
-            // container.innerHTML = 
             
             let html=''
             results.forEach((problem) => {
-                // let problemUrl="https://codeforces.com/problemset/problem/"+problem.contestId+"/"+problem.index;
-                // let htmlSegment = `<div class="problem-card">
-
-                // <h4>${problem.name}</h4>
-                // <div>${problem.rating}</div>
-                
-                // <a href="${problemUrl}" class="btn btn-info view-problem-button">View</a>
-                
-              
-                // </div>`;
-                // html += htmlSegment;
-
                 let problemUrl="https://codeforces.com/problemset/problem/"+problem.contestId+"/"+problem.index;
-                let htmlSegment = `<div class="card card-class">
+                let htmlSegment = `<div class="card card-class " style="border-radius:10px; border:none; >
             <div class="card-body">
                 <h4 class="card-title problem-name-class">${problem.name}</h4>
                 <p class="card-text">Rating: ${problem.rating}</p>
                 
-                <a href="${problemUrl}" class="btn btn-info view-problem-button"><span class="card-button-text">View</span></a>
+                <a href="${problemUrl}" style="background-color: orange;" class="btn view-problem-button"><span class="card-button-text">View</span></a>
             
             </div>
               
@@ -67,14 +54,5 @@ function handleClickOnTags(tagName){
         }
       })
 }
-
-// <a class="button" href="${problemUrl}">View</a>
-{/* <button type="button" onClick={(e) => {
-      e.preventDefault();
-      window.location.href='${problemUrl}';
-      }}
->View</button> */}
-
-
 
 export default DisplayTags

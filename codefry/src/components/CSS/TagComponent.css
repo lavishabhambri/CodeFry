@@ -3,26 +3,24 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: left;
-    padding: 1%;
-    border: 2px solid gray;
-    box-shadow:  5px 5px 10px #737373,
-             -5px -5px 10px #ffffff;
-    margin: 20px;
+    padding: 0.5%;
+    margin: 0px 20px;
 }
 
 .inner-tags{
-    background-color: lightgray;
-    margin: 5px;
+    background-color: #6474E5;
+    color: #fff;
+    box-shadow: -2px -2px 4px #ffffff,
+               2px 2px 4px #ceced1;
+    margin: 3px;
     padding: 7px;
     border-radius: 5px;
-    /* box-shadow:  0px 1px 2px 1px 2px #516bc3,
-             0px 0px 0px #516bc3; */
 }
 
 .inner-tags:hover{
-    background-color: lightskyblue;
-    /* box-shadow:  0px 1px 3px 1px 2px #516bc3,
-             0px 0px 0px #516bc3; */
+    background-color: #FFDDCC;
+    color: black;
+    font-weight: bold;
     transform: scale(1.02) translate(0, -0.5%);
     transition: all .3s ease-in-out;
 }
