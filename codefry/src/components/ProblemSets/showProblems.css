@@ -14,7 +14,7 @@
     flex-direction: row;
     justify-content: left;
     padding: 1%;
-    margin: 30px;
+    margin: 30px auto 0px 30px;
     height: 800px;
     text-align: center;
     overflow-y: scroll;

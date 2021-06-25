@@ -38,7 +38,7 @@ function handleClickOnTags(tagName){
                 <h4 class="card-title problem-name-class">${problem.name}</h4>
                 <p class="card-text">Rating: ${problem.rating}</p>
                 
-                <a href="${problemUrl}" style="background-color: orange;" class="btn view-problem-button"><span class="card-button-text">View</span></a>
+                <a href="${problemUrl}" target="_blank" style="background-color: orange;" class="btn view-problem-button"><span class="card-button-text">View</span></a>
             
             </div>
               
