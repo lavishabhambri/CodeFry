@@ -20,7 +20,7 @@ class Navbar extends Component{
                         <a className="nav-link text-white no-decoration"  href="#"><span className="navbar-item">Problems</span> </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white no-decoration" href="#"><span className="navbar-item">Create Room</span> </a>
+                        <a className="nav-link text-white no-decoration" href="#"><span className="navbar-item">Video Meet</span> </a>
                     </li>
                     <li className="nav-item active">
                         <a className="nav-link text-white no-decoration"  href="#"><span className="navbar-item">About us</span>  <span className="sr-only">(current)</span></a>
