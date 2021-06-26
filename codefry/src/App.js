@@ -5,22 +5,34 @@ import NavBar from './components/common/Navbar';
 import Footer from './components/common/Footer';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import http from "./services/httpService";
+import { usersEndPoint } from "./config.json";
+import jwtDecode from "jwt-decode";
 import Log from "./components/Auth/login.jsx";
 import Register from "./components/Auth/register.jsx"
 import NotFound from './components/common/404';
 import Logout from "./components/Auth/logout.jsx";
 class App extends React.Component {
-
+  state = {};
+  async componentDidMount() {
+    try {
+      const jwt = localStorage.getItem("token");
+      const user_jwt = jwtDecode(jwt);
+      const user = await http.get(`${usersEndPoint}${user_jwt._id}`);
+      this.setState({ user: user.data });
+    } catch (ex) {}
+  }
   render(){
+    const { user } = this.state;
     return (
       <BrowserRouter>
-        <NavBar />
+        <NavBar user={user}/>
         <Switch>
-            <Route path="/users/login" component={Log} />
-            <Route path="/users/register" component={Register} />
-            <Route path="/users/logout" component={Logout} />
-            <Route path="/not-found" component={NotFound} />
-            <Route path="/" exact component={Home} />
+            <Route exact path="/users/login" component={Log} />
+            <Route exact path="/users/register" component={Register} />
+            <Route exact path="/users/logout" component={Logout} />
+            <Route exact path="/not-found" component={NotFound} />
+            <Route exact path="/" render={(props) => <Home {...props} user={user} />} />
             <Redirect to="/not-found" />
         </Switch>
         <Footer />
