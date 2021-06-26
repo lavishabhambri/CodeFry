@@ -22,46 +22,24 @@ class Navbar extends Component {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a className="navbar-brand text-white" href="#">
-            <span>
-              <strong
-                style={{
-                  color: "#F4A4A4",
-                  fontSize: "22px",
-                  fontWeight: "bold",
-                }}
-              >
-                Codefry&nbsp;<i className="fas fa-code"></i>
-              </strong>
-            </span>
-          </a>
-          <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li className="nav-item active">
-              <a className="nav-link text-white navbar-item1" href="#">
-                <span className="navbar-item">Home</span>{" "}
-                <span className="sr-only">(current)</span>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-white no-decoration" href="#">
-                <span className="navbar-item">Problems</span>{" "}
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-white no-decoration" href="#">
-                <span className="navbar-item">Create Room</span>{" "}
-              </a>
-            </li>
-            <li className="nav-item active">
-              <a className="nav-link text-white no-decoration" href="#">
-                <span className="navbar-item">About us</span>{" "}
-                <span className="sr-only">(current)</span>
-              </a>
-            </li>
-            {/* PROFILE BUTTON */}
-            {/* <li className="nav-item">
-                        <a className="nav-link text-white" id="navbar-item5" href="#"></a>
+                <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a className="navbar-brand text-white" href="#"><span><strong style={{color:"#F4A4A4", fontSize:"22px", fontWeight:"bold"}}>Codefry&nbsp;<i className="fas fa-code"></i></strong></span></a>
+                    <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li className="nav-item active">
+                        <a className="nav-link text-white navbar-item1" href="#"><span className="navbar-item">Home</span> <span className="sr-only">(current)</span></a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link text-white no-decoration"  href="#"><span className="navbar-item">Problems</span> </a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link text-white no-decoration" href="#"><span className="navbar-item">Video Meet</span> </a>
+                    </li>
+                    <li className="nav-item active">
+                        <a className="nav-link text-white no-decoration"  href="#"><span className="navbar-item">About us</span>  <span className="sr-only">(current)</span></a>
+                    </li>
+                    {/* PROFILE BUTTON */}
+                    {/* <li className="nav-item">
+                        <a className="nav-link text-white" id="navbar-item5" href="#"><i className="fas fa-user-circle"></i></a>
                     </li> */}
             {user && (
               <li>
