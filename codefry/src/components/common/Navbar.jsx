@@ -30,7 +30,7 @@ class Navbar extends Component{
                         <a className="nav-link text-white" id="navbar-item5" href="#"><i className="fas fa-user-circle"></i></a>
                     </li> */}
                     <li>
-                    <button type="button" className="btn btn-info" id="navbar-button" ><span style={{color:"#000"}}>Login <i className="fab fa-google"></i></span></button>
+                    <button type="button" className="btn btn-info" id="navbar-button" href="/login"><span style={{color:"#000"}}>Login <i className="fab fa-google"></i></span></button>
                     </li>
                     </ul>
                 </div>
