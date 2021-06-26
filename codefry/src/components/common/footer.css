@@ -1,0 +1,15 @@
+.coding-sites-icon{
+    width: 100px;
+    height: 130px;
+    border-radius: 10px;
+    
+    transition: translate 2s ease-out;
+}
+
+.coding-sites-icon:hover{
+    box-shadow:  3px 3px 9px #160303,
+                 -3px -3px 6px #ffffff;
+    transform: translate(0, -3px);
+    transform: scale(1.01) translate(0, -0.5%);
+    transition: all .3s ease-in-out;
+}

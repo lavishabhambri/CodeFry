@@ -1,0 +1,46 @@
+.view-problem-button{
+    margin: 20px auto 0px;
+    display: block;
+    width: 80%;
+}
+
+.card-button-text{
+    color: black;
+}
+
+.problems-container-class{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    padding: 1%;
+    margin: 30px auto 0px 30px;
+    height: 800px;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+
+.card-class{
+    width: 280px;
+    height: 180px;
+    margin: 20px 15px;
+    background: #ECF0F3;
+    box-shadow:  3px 3px 9px #a3a6a8,
+                 -2px -2px 4px #ffffff;
+    transition: translate 2s ease-out;
+    
+}
+
+.card-class:hover{ 
+    box-shadow:  6px 6px 14px #a3a6a8,
+                 -2px -2px 4px #ffffff;
+    transform: translate(0, -3px);
+    transform: scale(1.01) translate(0, -0.5%);
+    transition: all .3s ease-in-out;
+}
+
+
+.problem-name-class{
+    margin-top: 20px;
+}
