@@ -1,13 +1,14 @@
 import React from 'react';
 
-function UserSolvedProblems(myUser) {
+function UserSolvedProblems(user) {
 
-    const urlString = "https://codeforces.com/api/user.status?handle=crazynitian"
-    fetch(urlString)
-    .then(res => res.json()) // the .json() method parses the JSON response into a JS object literal
-    .then(data => console.log(data));
-
-    console.log(myUser);
+    const codeforceHandle = user.user.user;
+    console.log(codeforceHandle);
+    // const urlString = "https://codeforces.com/api/user.status?handle=" + codeforceHandle;
+    // console.log(urlString);
+    // fetch(urlString)
+    // .then(res => res.json()) // the .json() method parses the JSON response into a JS object literal
+    // .then(data => console.log(data));
     
     return (
         <div>

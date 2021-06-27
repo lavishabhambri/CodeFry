@@ -24,6 +24,7 @@ class App extends React.Component {
   }
   render(){
     const { user } = this.state;
+    // console.log("User",user);
     return (
       <BrowserRouter>
         <NavBar user={user}/>

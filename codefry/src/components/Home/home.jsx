@@ -3,11 +3,11 @@ import './home.css';
 import DisplayTags from "../ProblemRow"
 import UserSolvedProblems from "../UserStatus/usersolvedproblems";
 
-function home(props,user) {
+function home(user) {
     return (
         <div>
         <DisplayTags />
-        {<UserSolvedProblems myUser={user} />}
+        {<UserSolvedProblems user={user} />}
         </div>
     )
 }
