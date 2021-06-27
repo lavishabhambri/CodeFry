@@ -4,9 +4,9 @@
 
 .navbar-item{
     font-size: 16px;
-    text-decoration: none; 
-    margin-left: 20px; 
-    font-weight: bold; 
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
 }
 
 .navbar-item:hover{
@@ -15,8 +15,8 @@
 
 .navbar-item1{
     font-size: 16px;
-    text-decoration: none; 
-    margin-left: 550px;
+    text-decoration: none;
+    margin-left: 350px;
 }
 
 .navbar-item1:hover{
@@ -35,7 +35,9 @@
     border-color: #f4a4a4;
 }
 
-
-
-
-
+#navbar-button:hover{
+    background-color: #FFDDCC;
+    border-color: #FFDDCC;
+    transform: scale(1.01) translate(0, -0.5%);
+    transition: all .3s ease-in-out;
+}
