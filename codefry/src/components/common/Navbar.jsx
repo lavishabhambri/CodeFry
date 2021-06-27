@@ -24,7 +24,7 @@ class Navbar extends Component {
         </button>
 
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a className="navbar-brand text-white" style={{paddingBottom:"0%", paddingTop:"0%"}} href="#"><span><strong style={{color:"#F4A4A4", fontSize:"22px", fontWeight:"bold"}}><img src={logoImage} style={{width:"20%"}}></img></strong></span></a>                    <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <a className="navbar-brand text-white" style={{paddingBottom:"0%", paddingTop:"0%"}} href="#"><span><strong style={{color:"#F4A4A4", fontSize:"22px", fontWeight:"bold"}}><img src={logoImage} style={{width:"20%"}}></img></strong></span></a>                    <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li className="nav-item active">
                         <a className="nav-link text-white navbar-item1" href="#"><span className="navbar-item">Home</span> <span className="sr-only">(current)</span></a>
                     </li>
