@@ -36,7 +36,7 @@ class Log extends Form {
   };
   render() {
     if (localStorage.getItem("token")) {
-      return <Redirect to="/dashboard" />;
+      return <Redirect to="/" />;
     }
     const { data, errors } = this.state;
     return (

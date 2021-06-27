@@ -7,7 +7,6 @@ function home(props,user) {
     return (
         <div>
         <DisplayTags />
-
         {<UserSolvedProblems myUser={user} />}
         </div>
     )
