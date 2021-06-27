@@ -54,6 +54,7 @@ class Register extends Form {
                       name="name"
                       type="text"
                       error={errors.name}
+                      placeholderValue="Name"
                     />
                   </div>
                   <div class="form-group">
@@ -64,6 +65,7 @@ class Register extends Form {
                       type="text"
                       onChange={this.handleChange}
                       error={errors.username}
+                      placeholderValue="Codeforces Handle"
                     />
                     
                   </div>
@@ -75,6 +77,7 @@ class Register extends Form {
                       type="text"
                       name="email"
                       error={errors.email}
+                      placeholderValue="Email"
                     />
                   </div>
                   <div class="form-group">
@@ -85,6 +88,7 @@ class Register extends Form {
                       type="password"
                       name="password"
                       error={errors.password}
+                      placeholderValue="Password"
                     />
                   </div>
 
@@ -96,6 +100,7 @@ class Register extends Form {
                       name="password2"
                       type="password"
                       error={errors.password2}
+                      placeholderValue="Confirm Password"
                     />
                   </div>
                   <div class="form-group">
