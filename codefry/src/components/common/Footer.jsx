@@ -6,7 +6,7 @@ import logoImage from "./../../images/codefry.png"
 function Footer() {
     return (
         <div>
-            <footer className="bg-dark text-center text-white">
+            <footer style={{clear:"both", position:"relative", marginTop:"-1px"}} className="bg-dark text-center text-white">
 
                 <div className="container p-4">
                     <section className="">
@@ -40,7 +40,7 @@ function Footer() {
                                     className="bg-image hover-overlay ripple shadow-1-strong rounded"
                                     data-ripple-color="light"
                                 >
-                                    
+
                                     <a href="https://www.codechef.com/" target="_blank">
                                     <img
                                         src="https://static.startuptalky.com/2021/04/codechef-logo-startuptalky.jpg"
@@ -58,7 +58,7 @@ function Footer() {
                                     className="bg-image hover-overlay ripple shadow-1-strong rounded"
                                     data-ripple-color="light"
                                 >
-                                    
+
                                     <a href="https://atcoder.jp/"  target="_blank">
                                     <img
                                         src="https://img.atcoder.jp/assets/atcoder.png"
@@ -76,7 +76,7 @@ function Footer() {
                                     className="bg-image hover-overlay ripple shadow-1-strong rounded"
                                     data-ripple-color="light"
                                 >
-                                    
+
                                     <a href="https://leetcode.com/"  target="_blank">
                                     <img
                                         src="https://cdn.cdo.mit.edu/wp-content/uploads/sites/67/2021/01/0_zuhXdNAIUoxEem4-.png"
@@ -94,7 +94,7 @@ function Footer() {
                                     className="bg-image hover-overlay ripple shadow-1-strong rounded"
                                     data-ripple-color="light"
                                 >
-                                    
+
                                     <a href="https://www.topcoder.com/"  target="_blank">
                                     <img
                                         src="https://images.ctfassets.net/piwi0eufbb2g/6nCaCYxOpz6ody4U5cGIbd/69c23706c8f4e33aa67517616c3d4f4e/Topcoder-Generic-Banner.jpg"
@@ -112,7 +112,7 @@ function Footer() {
                                     className="bg-image hover-overlay ripple shadow-1-strong rounded"
                                     data-ripple-color="light"
                                 >
-                                    
+
                                     <a href="" target="_blank">
                                     <img
                                         src={logoImage}
