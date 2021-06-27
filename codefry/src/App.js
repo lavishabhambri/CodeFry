@@ -12,6 +12,8 @@ import Log from "./components/Auth/login.jsx";
 import Register from "./components/Auth/register.jsx"
 import NotFound from './components/common/404';
 import Logout from "./components/Auth/logout.jsx";
+import DisplaySolvedProblems from "./components/UserStatus/usersolvedproblems";
+
 class App extends React.Component {
   state = {};
   async componentDidMount() {
@@ -24,7 +26,6 @@ class App extends React.Component {
   }
   render(){
     const { user } = this.state;
-    // console.log("User",user);
     return (
       <BrowserRouter>
         <NavBar user={user}/>
@@ -34,6 +35,7 @@ class App extends React.Component {
             <Route exact path="/users/logout" component={Logout} />
             <Route exact path="/not-found" component={NotFound} />
             <Route exact path="/" render={(props) => <Home {...props} user={user} />} />
+            <Route exact path="/users/login/solved" render={() => <DisplaySolvedProblems user={user} />}/>
             <Redirect to="/not-found" />
         </Switch>
         <Footer />
