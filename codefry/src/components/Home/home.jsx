@@ -7,7 +7,7 @@ function home(user) {
     return (
         <div>
         <DisplayTags />
-        {<UserSolvedProblems user={user} />}
+        {<UserSolvedProblems user={user.user} />}
         </div>
     )
 }

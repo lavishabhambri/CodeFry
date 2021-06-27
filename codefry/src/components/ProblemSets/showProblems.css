@@ -6,6 +6,7 @@
 
 .card-button-text{
     color: black;
+    font-weight: bold;
 }
 
 .problems-container-class{
@@ -43,4 +44,36 @@
 
 .problem-name-class{
     margin-top: 20px;
+}
+
+/* Show problems */
+.solved-problems-container-class{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    padding: 1%;
+    height: 800px;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+.showProblems-card-class{
+    width: 280px;
+    height: 240px;
+    padding: 1%;
+    margin: 20px 15px;
+    background: #ECF0F3;
+    box-shadow:  3px 3px 9px #a3a6a8,
+                 -2px -2px 4px #ffffff;
+    transition: translate 2s ease-out;
+    
+}
+
+.showProblems-card-class:hover{ 
+    box-shadow:  6px 6px 14px #a3a6a8,
+                 -2px -2px 4px #ffffff;
+    transform: translate(0, -3px);
+    transform: scale(1.01) translate(0, -0.5%);
+    transition: all .3s ease-in-out;
 }
