@@ -1,0 +1,64 @@
+/* About */
+#about{
+    padding:4%;
+    font-family: 'Google Sans';
+    background-color:"#ECF0F3";
+    
+}
+
+.about-container{
+    margin-bottom: 60px;
+}
+
+.about-heading{
+    font-family: "Google Sans";
+    font-size: 4rem;
+    margin: 40px auto;
+    background-color: orange;
+}
+
+.about-text{
+    font-family: "Google Sans";
+    font-size: 2rem;
+}
+
+
+
+/* Features */
+.feature-title{
+    margin-top: 30px;
+    background-color: orange;
+    width: 40%;
+}
+
+.features-item{
+	padding: 40px 20px;
+}
+
+.features-item i{
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.features-item h5{
+	font-weight: 700;
+	font-size: 16px;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+
+.title{
+    font-family: "Google Sans";
+    font-size: 4rem;
+}
+
+
+.color-l-blue {
+	color: #77afea;
+}
+.color-l-yellow {
+	color: #f4d382;
+}
+.color-l-purple {
+	color: #ad8ede;
+}

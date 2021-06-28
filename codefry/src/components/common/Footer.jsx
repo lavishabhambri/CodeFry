@@ -18,9 +18,9 @@ function Footer() {
                                 eum harum corrupti dicta, aliquam sequi voluptate quas.
                             </p>
                             </section>
-                            <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
+                            <div className="col-lg-2 col-md-3 col-sm-6 mb-4 mb-md-0 ">
                                 <div
-                                    className="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                    className="bg-image hover-overlay ripple shadow-1-strong rounded footer-image"
                                     data-ripple-color="light"
                                 >
                                     <a href="http://codeforces.com" target="_blank">
@@ -35,9 +35,9 @@ function Footer() {
                                     </a>
                                 </div>
                             </div>
-                            <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
+                            <div className="col-lg-2 col-md-3 col-sm-6 mb-4 mb-md-0">
                                 <div
-                                    className="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                    className="bg-image hover-overlay ripple shadow-1-strong rounded footer-image"
                                     data-ripple-color="light"
                                 >
 
@@ -53,9 +53,9 @@ function Footer() {
                                     </a>
                                 </div>
                             </div>
-                            <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
+                            <div className="col-lg-2 col-md-3 col-sm-6 mb-4 mb-md-0">
                                 <div
-                                    className="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                    className="bg-image hover-overlay ripple shadow-1-strong rounded footer-image"
                                     data-ripple-color="light"
                                 >
 
@@ -71,9 +71,9 @@ function Footer() {
                                     </a>
                                 </div>
                             </div>
-                            <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
+                            <div className="col-lg-2 col-md-3 col-sm-6 mb-4 mb-md-0">
                                 <div
-                                    className="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                    className="bg-image hover-overlay ripple shadow-1-strong rounded footer-image"
                                     data-ripple-color="light"
                                 >
 
@@ -89,9 +89,9 @@ function Footer() {
                                     </a>
                                 </div>
                             </div>
-                            <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
+                            <div className="col-lg-2 col-md-3 col-sm-6 mb-4 mb-md-0">
                                 <div
-                                    className="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                    className="bg-image hover-overlay ripple shadow-1-strong rounded footer-image"
                                     data-ripple-color="light"
                                 >
 
@@ -107,9 +107,9 @@ function Footer() {
                                     </a>
                                 </div>
                             </div>
-                            <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
+                            <div className="col-lg-2 col-md-3 col-sm-6 mb-4 mb-md-0">
                                 <div
-                                    className="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                    className="bg-image hover-overlay ripple shadow-1-strong rounded footer-image"
                                     data-ripple-color="light"
                                 >
 
