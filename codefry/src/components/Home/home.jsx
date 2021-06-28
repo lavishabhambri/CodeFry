@@ -20,7 +20,8 @@ function home(user) {
     }
 
     return (
-        <div>
+        <div style={{backgroundColor:"#ECF0F3"}}>
+            <h1 style={{marginTop:"0px", padding:"2% 27px 0%", fontFamily: 'Castoro', letterSpacing:"1px"}}>Problem tags</h1>
             <DisplayTags />
             <printAllSolvedProblems/>
         </div>
