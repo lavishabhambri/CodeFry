@@ -16,7 +16,7 @@
 .navbar-item1{
     font-size: 16px;
     text-decoration: none;
-    margin-left: 350px;
+    margin-left: 250px;
 }
 
 .navbar-item1:hover{
@@ -36,6 +36,7 @@
 }
 
 #navbar-button:hover{
+    text-decoration: none;
     background-color: #FFDDCC;
     border-color: #FFDDCC;
     transform: scale(1.01) translate(0, -0.5%);

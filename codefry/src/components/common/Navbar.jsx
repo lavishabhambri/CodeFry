@@ -23,22 +23,27 @@ class Navbar extends Component {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-                <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <a className="navbar-brand text-white" style={{paddingBottom:"0%", paddingTop:"0%"}} href="#"><span><strong style={{color:"#F4A4A4", fontSize:"22px", fontWeight:"bold"}}><img src={logoImage} style={{width:"20%"}}></img></strong></span></a>                    <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li className="nav-item active">
-                        <a className="nav-link text-white navbar-item1" href="#"><span className="navbar-item">Home</span> <span className="sr-only">(current)</span></a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link text-white no-decoration"  href="#"><span className="navbar-item">Problems</span> </a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link text-white no-decoration" href="#"><span className="navbar-item">Video Meet</span> </a>
-                    </li>
-                    <li className="nav-item active">
-                        <a className="nav-link text-white no-decoration"  href="#"><span className="navbar-item">About us</span>  <span className="sr-only">(current)</span></a>
-                    </li>
-                    {/* PROFILE BUTTON */}
-                    {/* <li className="nav-item">
+        <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+        {/* <a class="navbar-brand" href="#">Navbar</a> */}
+          {/* <a className="navbar-brand text-white" style={{ paddingBottom: "0%", paddingTop: "0%"}} href="#"><span><strong style={{ color: "#F4A4A4", fontSize: "22px", fontWeight: "bold" }}><img src={logoImage} style={{ width: "20%" }}></img></strong></span></a> */}
+          <ul className="navbar-nav mr-auto mt-2 mt-lg-0" style={{textAlign:"right", marginRight:"20px"}}>
+            <li className="nav-item active">
+              <a className="navbar-brand text-white" style={{ paddingBottom: "0%", paddingTop: "0%", textAlign:"left"}} href="#"><span><strong style={{ color: "#F4A4A4", fontSize: "22px", fontWeight: "bold" }}><img src={logoImage} style={{ width: "20%" }}></img></strong></span></a>
+            </li>
+            <li className="nav-item active">
+              <a className="nav-link text-white navbar-item1" href="#"><span className="navbar-item">Home</span> </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link text-white no-decoration" href="/users/login/solved"><span className="navbar-item">Problems</span> </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link text-white no-decoration" href="#"><span className="navbar-item">Code-Live</span> </a>
+            </li>
+            <li className="nav-item active">
+              <a className="nav-link text-white no-decoration" href="#"><span className="navbar-item">About</span>  <span className="sr-only">(current)</span></a>
+            </li>
+            {/* PROFILE BUTTON */}
+            {/* <li className="nav-item">
                         <a className="nav-link text-white" id="navbar-item5" href="#"><i className="fas fa-user-circle"></i></a>
                     </li> */}
             {user && (
@@ -48,8 +53,8 @@ class Navbar extends Component {
                   href={"https://codeforces.com/profile/" + user.CF_username}
                   target="blank"
                 >
-                  <span className="navbar-item">
-                    <i className="fas fa-user-circle"></i> Hi {user.CF_username}
+                  <span className="navbar-item" style={{color:"#FFC947"}}>
+                    <i className="fas fa-user-circle" style={{fontSize:"20px"}}></i>&nbsp;{user.CF_username}
                   </span>{" "}
                   <span className="sr-only">(current)</span>
                 </a>
@@ -62,7 +67,7 @@ class Navbar extends Component {
                   className="btn btn-info"
                   id="navbar-button"
                 >
-                  <a href="/users/login" style={{ textDecoration:"none" }}>
+                  <a href="/users/login" style={{ textDecoration: "none" }}>
                     <span style={{ color: "#000" }}>
                       Login <i className="fab fa-google"></i>
                     </span>
@@ -75,7 +80,7 @@ class Navbar extends Component {
                   className="btn btn-info"
                   id="navbar-button"
                 >
-                  <a href="/users/logout">
+                  <a href="/users/logout" style={{ textDecoration: "none" }}>
                     <span style={{ color: "#000" }}>Logout</span>
                   </a>
                 </button>
