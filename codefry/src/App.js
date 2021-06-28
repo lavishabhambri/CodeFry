@@ -13,6 +13,7 @@ import Register from "./components/Auth/register.jsx"
 import NotFound from './components/common/404';
 import Logout from "./components/Auth/logout.jsx";
 import DisplaySolvedProblems from "./components/UserStatus/usersolvedproblems";
+import About from "./components/About/about.jsx";
 
 class App extends React.Component {
   state = {};
@@ -33,6 +34,7 @@ class App extends React.Component {
             <Route exact path="/users/login" component={Log} />
             <Route exact path="/users/register" component={Register} />
             <Route exact path="/users/logout" component={Logout} />
+            <Route exact path="/about" component={About} />
             <Route exact path="/not-found" component={NotFound} />
             <Route exact path="/" render={(props) => <Home {...props} user={user} />} />
             <Route exact path="/users/login/solved" render={() => <DisplaySolvedProblems user={user} />}/>

@@ -2,7 +2,7 @@
     width: 100px;
     height: 130px;
     border-radius: 10px;
-    
+    margin-bottom: 20px;
     transition: translate 2s ease-out;
 }
 
@@ -13,3 +13,4 @@
     transform: scale(1.01) translate(0, -0.5%);
     transition: all .3s ease-in-out;
 }
+
