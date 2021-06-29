@@ -65,12 +65,12 @@ class Navbar extends Component {
               <i className="fas fa-user-circle nav-link" style={{fontSize:"26px",color:"#FFC947"}} id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                  <a style={{ textDecoration: "none"}} class="dropdown-item" href="/todo/create"><a style={{ textDecoration: "none"}} target="blank" href={"https://codeforces.com/profile/" + user.CF_username}>{user.CF_username}</a></a>
+                  <a style={{ textDecoration: "none"}} class="dropdown-item todo-dropdown-items" href="/todo/create"><a style={{ textDecoration: "none"}} target="blank" href={"https://codeforces.com/profile/" + user.CF_username}>{user.CF_username}</a></a>
 
-                  <a style={{ textDecoration: "none"}} class="dropdown-item" href="/todo/create">Create Todo</a>
-                  <a style={{ textDecoration: "none"}} class="dropdown-item" href="/todo">My Todos</a>
+                  <a style={{ textDecoration: "none"}} class="dropdown-item todo-dropdown-items" href="/todo/create">Create Todo</a>
+                  <a style={{ textDecoration: "none"}} class="dropdown-item todo-dropdown-items" href="/todo">My Todos</a>
                   <div class="dropdown-divider"></div>
-                  <a style={{ textDecoration: "none"}} class="dropdown-item" href="/users/logout">Logout</a>
+                  <a style={{ textDecoration: "none"}} class="dropdown-item todo-dropdown-items" href="/users/logout">Logout</a>
                 </div>
               </li>
             )}
