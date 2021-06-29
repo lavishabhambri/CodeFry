@@ -42,3 +42,11 @@
     transform: scale(1.01) translate(0, -0.5%);
     transition: all .3s ease-in-out;
 }
+
+@media screen and (max-width: 770px){
+  .todo-dropdown-items{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid;
+  }
+}

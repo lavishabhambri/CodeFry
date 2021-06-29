@@ -3,7 +3,7 @@
     padding:4%;
     font-family: 'Google Sans';
     background-color:"#ECF0F3";
-    
+
 }
 
 .about-container{
@@ -28,7 +28,7 @@
 .feature-title{
     margin-top: 30px;
     background-color: orange;
-    width: 40%;
+    width: 45%;
 }
 
 .features-item{
@@ -61,4 +61,12 @@
 }
 .color-l-purple {
 	color: #ad8ede;
+}
+
+@media screen and (max-width: 770px) {
+  .feature-title{
+      margin-top: 30px;
+      background-color: orange;
+      width: 100%;
+  }
 }
