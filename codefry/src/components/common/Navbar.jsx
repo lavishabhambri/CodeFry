@@ -56,13 +56,17 @@ class Navbar extends Component {
                 </button>
               )}
 
+
             </li>
             <li>
+
             {user && (
               <li class="nav-item dropdown" style={{margin:"5px auto auto 25px"}}>
               <i className="fas fa-user-circle nav-link" style={{fontSize:"26px",color:"#FFC947"}} id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
                   <a style={{ textDecoration: "none"}} class="dropdown-item" href="/todo/create"><a style={{ textDecoration: "none"}} target="blank" href={"https://codeforces.com/profile/" + user.CF_username}>{user.CF_username}</a></a>
+
                   <a style={{ textDecoration: "none"}} class="dropdown-item" href="/todo/create">Create Todo</a>
                   <a style={{ textDecoration: "none"}} class="dropdown-item" href="/todo">My Todos</a>
                   <div class="dropdown-divider"></div>
@@ -70,7 +74,9 @@ class Navbar extends Component {
                 </div>
               </li>
             )}
+
             </li>
+
 
           </ul>
         </div>
