@@ -78,7 +78,7 @@ export default class CreateTodo extends Component{
 
     render() {
         return (
-            <div class="container" style={{ padding:"4%"}}>
+            <div style={{ padding:"6%",margin:"auto 60px", backgroundColor:"#ECF0F3"}}>
                 <h3 style={{fontFamily: 'Google Sans',fontSize:"4rem"}}>Create New Todo</h3>
 
                 {/* Creating form to collect input from user */}
