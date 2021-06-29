@@ -54,9 +54,11 @@ export default class TodosList extends Component{
 
     render() {
         return (
+
             <div style={{minHeight:"600px",padding:"6% 4%",margin:"auto 50px", backgroundColor:"#ECF0F3"}}>
                 <h3 style={{fontFamily: 'Google Sans',fontSize:"4rem"}}>Todos List</h3>
                 <table className="table table-bordered" style={{ margin:"20px auto", backgroundColor:"#fff" }}>
+
                     <thead>
                         <tr>
                             <th>Description</th>
