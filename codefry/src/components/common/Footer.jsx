@@ -6,7 +6,7 @@ import logoImage from "./../../images/codefry.png"
 function Footer() {
     return (
         <div>
-            <footer style={{clear:"both", position:"relative", marginTop:"-1px"}} className="bg-dark text-center text-white">
+            <footer style={{clear:"both", position:"relative" ,marginTop:"-1px"}} className="bg-dark text-center text-white">
 
                 <div className="container p-4">
                     <section className="">

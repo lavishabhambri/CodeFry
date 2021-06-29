@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import { BrowserRouter, Link, Switch, Route, Redirect } from "react-router-dom";
 import Home from "./components/Home/home.jsx";
 import NavBar from './components/common/Navbar';
 import Footer from './components/common/Footer';
@@ -14,6 +14,10 @@ import NotFound from './components/common/404';
 import Logout from "./components/Auth/logout.jsx";
 import DisplaySolvedProblems from "./components/UserStatus/usersolvedproblems";
 import About from "./components/About/about.jsx";
+import CreateTodo from './components/TodoList/create-todo.component';
+import EditTodo from './components/TodoList/edit-todo.component';
+import TodosList from './components/TodoList/todos-list.component';
+// import TodoNav from './todo.jsx';
 
 class App extends React.Component {
   state = {};
@@ -38,6 +42,11 @@ class App extends React.Component {
             <Route exact path="/not-found" component={NotFound} />
             <Route exact path="/" render={(props) => <Home {...props} user={user} />} />
             <Route exact path="/users/login/solved" render={() => <DisplaySolvedProblems user={user} />}/>
+
+            // Todo routes
+            <Route path="/todo" exact component={ TodosList }></Route>
+            <Route path="/todo/edit/:id" component={ EditTodo }></Route>
+            <Route path="/todo/create" component={ CreateTodo }></Route>
             <Redirect to="/not-found" />
         </Switch>
         <Footer />
