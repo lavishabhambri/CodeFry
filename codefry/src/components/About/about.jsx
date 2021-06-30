@@ -15,7 +15,7 @@ function About(){
                         <h2 className="about-heading">About Codefry</h2>
                     </div>
                     <div className="about-text-container">
-                        <p className="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium omnis enim cumque quo repellat soluta quidem odit! Labore, ut? Aliquid alias nulla modi quam, rem animi eum cumque commodi voluptas.</p>
+                        <p className="about-text">Codefry is a web app build using the MERN stack, based upon the user’s Codeforces profile handles, helps programmers to code together and eases their tasks in the online schedule. The app is developed by Lavisha and Vaibhav.</p>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@ function About(){
                   {/* <i className="icon-design-graphic-tablet-streamline-tablet color-l-orange"></i>  */}
                 </div>
                 <h5>Coding Skills</h5>
-                <p>Nulla vitae libero pharetra augue. Etiam porta malesuada magna mollis euismod consectetur sem urdom tempus porttitor.</p>
+                <p>Codefry helps users to improve their coding skills by practising Codeforces problems by their tags. The user can also look at their solved problems by logging into their account.</p>
               </div>
             </div>
           </div>
@@ -49,11 +49,12 @@ function About(){
             <div className="text-center features-item">
               <div className="col-wrapper">
                 <div className="icon-border"> 
-                <i className="fas fa-users color-l-blue"></i>
+                <i class="fas fa-list-ul color-l-blue"></i>
+                {/* <i className="fas fa-users "></i> */}
                   {/* <i className="icon-design-pencil-rule-streamline color-l-blue"></i>  */}
                 </div>
-                <h5>Multiple Users</h5>
-                <p>Nulla vitae libero pharetra augue. Etiam porta malesuada magna mollis euismod consectetur sem urdom tempus porttitor.</p>
+                <h5>Todo List</h5>
+                <p>A personalised Todo list is available for the users to note down the deadlines of the coding contests and note the favourite problems.</p>
               </div>
             </div>
           </div>
@@ -65,8 +66,8 @@ function About(){
                 <i class="fas fa-video color-l-yellow"></i>
                   {/* <i className="icon-speech-streamline-talk-user color-l-yellow"></i>  */}
                 </div>
-                <h5>Live Code editor</h5>
-                <p>Nulla vitae libero pharetra augue. Etiam porta malesuada magna mollis euismod consectetur sem urdom tempus porttitor.</p>
+                <h5>Collaborative Live Code editor</h5>
+                <p>A live code-editor is available for the users to create personalised room with other coders, run & debug codes and have video and audio calling feature.</p>
               </div>
             </div>
           </div>
