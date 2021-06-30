@@ -11,11 +11,13 @@ function Footer() {
                 <div className="container p-4">
                     <section className="">
                         <div className="row">
-                        <section class="mb-4">
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-                                repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-                                eum harum corrupti dicta, aliquam sequi voluptate quas.
+                        <section class="mb-4">   
+                        {/* <span style={{color:"orange"}}></span> */}
+                            <p style={{fontSize:"15px", margin:"20"}}>
+                            <span style={{color:"orange"}}>Codefry</span> is a coding application that helps all the users to practice codeforces problems by their tags, 
+                                look at their solved problems, mark the problems in the <span style={{color:"orange"}}>Codefry Todo List <i class="fas fa-clipboard"></i></span> and create a coding-room with other coders using the <span style={{color:"orange"}}>codelive editor <i class="fas fa-code"></i></span> and
+                                use the <span style={{color:"orange"}}> video <i class="fas fa-video"></i> </span> and <span style={{color:"orange"}}>audio <i class="fas fa-volume-up"></i> </span>calling feature.
+                     
                             </p>
                             </section>
                             <div className="col-lg-2 col-md-4 col-sm-6 mb-4 mb-md-0 ">
