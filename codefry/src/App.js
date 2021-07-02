@@ -17,7 +17,7 @@ import About from "./components/About/about.jsx";
 import CreateTodo from './components/TodoList/create-todo.component';
 import EditTodo from './components/TodoList/edit-todo.component';
 import TodosList from './components/TodoList/todos-list.component';
-// import TodoNav from './todo.jsx';
+import Editor from "./components/Editor/editor.jsx";
 
 class App extends React.Component {
   state = {};
@@ -43,10 +43,13 @@ class App extends React.Component {
             <Route exact path="/" render={(props) => <Home {...props} user={user} />} />
             <Route exact path="/users/login/solved" render={() => <DisplaySolvedProblems user={user} />}/>
 
-            // Todo routes
+             {/* Todo routes */}
             <Route path="/todo" exact component={ TodosList }></Route>
             <Route path="/todo/edit/:id" component={ EditTodo }></Route>
             <Route path="/todo/create" component={ CreateTodo }></Route>
+
+            {/* Code Editor */}
+            <Route path="/codelive" exact component={ Editor }></Route>
             <Redirect to="/not-found" />
         </Switch>
         <Footer />
