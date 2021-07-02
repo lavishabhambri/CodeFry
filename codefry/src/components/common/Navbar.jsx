@@ -35,7 +35,7 @@ class Navbar extends Component {
               <a className="nav-link text-white no-decoration" href="/users/login/solved"><span className="navbar-item">Problems</span> </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white no-decoration" href="#"><span className="navbar-item">Code-Live</span> </a>
+              <a className="nav-link text-white no-decoration" href="/codelive"><span className="navbar-item">Code-Live</span> </a>
             </li>
             <li className="nav-item active">
               <a className="nav-link text-white no-decoration" href="/about"><span className="navbar-item">About</span>  <span className="sr-only">(current)</span></a>
