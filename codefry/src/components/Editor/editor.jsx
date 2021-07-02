@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./editor.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 require('dotenv').config()
 
 export default class Editor extends Component {
@@ -13,24 +14,24 @@ export default class Editor extends Component {
     };
   }
   input = (event) => {
- 
+
     event.preventDefault();
-  
+
     this.setState({ input: event.target.value });
     localStorage.setItem('input', event.target.value)
- 
+
   };
   userInput = (event) => {
     event.preventDefault();
     this.setState({ user_input: event.target.value });
   };
   language = (event) => {
-   
+
     event.preventDefault();
-   
+
     this.setState({ language_id: event.target.value });
     localStorage.setItem('language_Id',event.target.value)
-   
+
   };
 
   submit = async (e) => {
@@ -79,7 +80,7 @@ export default class Editor extends Component {
           headers: {
             "x-rapidapi-host": "judge0-ce.p.rapidapi.com",
             "x-rapidapi-key": `${process.env.REACT_APP_EDITOR_API_KEY}`, // Get yours for free at https://rapidapi.com/judge0-official/api/judge0-ce/
-            
+
             "content-type": "application/json",
           },
         });
@@ -108,66 +109,57 @@ export default class Editor extends Component {
     }
   };
   render() {
- 
+
     return (
-      <>
-        <div className="row container-fluid">
-          <div className="col-6 ml-4 ">
-            <label htmlFor="solution ">
-              <span className="badge badge-info heading mt-2 ">
-                <i className="fas fa-code fa-fw fa-lg"></i> Code Here
-              </span>
-            </label>
-            <textarea
-              required
-              name="solution"
-              id="source"
-              onChange={this.input}
-              className=" source"
-              value={this.state.input}
-            ></textarea>
-
-            <button
-              type="submit"
-              className="btn btn-danger ml-2 mr-2 "
-              onClick={this.submit}
-            >
-              <i className="fas fa-cog fa-fw"></i> Run
-            </button>
-
-            <label htmlFor="tags" className="mr-1">
-              <b className="heading">Language:</b>
-            </label>
-            <select
-              value={this.state.language_id}
-              onChange={this.language}
-              id="tags"
-              className="form-control form-inline mb-2 language"
-            >
-              <option value="54">C++</option>
-              <option value="50">C</option>
-              <option value="62">Java</option>
-              <option value="71">Python</option>
-            </select>
+      <div className="container-fluid editor-page">
+        <div id="container">
+          <div className="left">
+          <label htmlFor="solution "></label>
+                  <textarea
+                    required
+                    name="solution"
+                    id="source"
+                    onChange={this.input}
+                    className=" source"
+                    value={this.state.input}
+                  ></textarea>
           </div>
-          <div className="col-5">
-            <div>
-              <span className="badge badge-info heading my-2 ">
-                <i className="fas fa-exclamation fa-fw fa-md"></i> Output
-              </span>
-              <textarea id="output"></textarea>
+
+          <div className="right">
+            <div className="upper">
+                  <select
+                    value={this.state.language_id}
+                    onChange={this.language}
+                    id="tags"
+                    className="form-control form-inline mb-2 language-selector"
+                    style={{width:"95%", marginLeft:"8px", marginTop:"10px"}}
+                  >
+                    <option value="54">C++</option>
+                    <option value="50">C</option>
+                    <option value="62">Java</option>
+                    <option value="71">Python</option>
+                  </select>
+                  <button
+                    type="submit"
+                    className="btn btn-warning submit-button "
+                    onClick={this.submit}
+                    style={{marginBottom:"8px", width:"95%",color:"#000"}}
+                  >
+                    <i className="fas fa-cog fa-fw"></i> Submit
+                  </button>
+            </div>
+
+            <div className="lower">
+
+              <textarea id="input" onChange={this.userInput} placeholder="Enter input">
+              </textarea>
+              <div>
+                <textarea id="output" disabled></textarea>
+              </div>
             </div>
           </div>
         </div>
-
-        <div className="mt-2 ml-5">
-          <span className="badge badge-primary heading my-2 ">
-            <i className="fas fa-user fa-fw fa-md"></i> User Input
-          </span>
-          <br />
-          <textarea id="input" onChange={this.userInput}></textarea>
-        </div>
-      </>
+      </div>
     );
   }
 }
