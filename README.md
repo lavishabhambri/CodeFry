@@ -35,7 +35,7 @@ npm start
 ## Features
 - Codefry helps users to improve their coding skills by practising Codeforces problems by their tags. 
 - The user can also look at their solved problems by logging into their account.
-- A personalised Todo list is available for the users to note down the deadlines of the coding contests and note the favourite problems.
+- A personalised Todo list is available for the users to note down the deadlines of the coding contests and their favourite problems.
 - Users can create personalised room with other coders, run & debug codes and have video and audio calling feature.
 - A code editor is also present for the user to run the code in four languages - C, C++, Python and Java.
 
