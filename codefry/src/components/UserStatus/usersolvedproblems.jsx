@@ -15,12 +15,12 @@ function UserSolvedProblems(user) {
     // To handle the undefined case use &&
     const codeforceHandle= user.user && user.user.CF_username;
     // console.log(codeforceHandle);
-   
+
     const urlString = "https://codeforces.com/api/user.status?handle=" + codeforceHandle;
     const data = fetch(urlString)
     .then(res => res.json()) // the .json() method parses the JSON response into a JS object literal
     .then(data => {return data});
-    
+
     const printAddress = () => {
         data.then((a) => {
             const fetchedProblems= a.result;
@@ -37,7 +37,7 @@ function UserSolvedProblems(user) {
                 if (verdict == "OK"){
                     count++;
                     let problemUrl="https://codeforces.com/problemset/problem/"+contestID+"/"+index;
-                    
+
                     let htmlSegment = `<div class="card showProblems-card-class " style="border-radius:10px; border:none; >
                     <div class="card-body">
 
@@ -46,16 +46,15 @@ function UserSolvedProblems(user) {
                         <p class="card-text" style="font-size:13px; color:grey;">Tags: ${tags}</p>
                         <a href="${problemUrl}" target="_blank" class="btn btn-success solved-view-problem-button"><span class="card-button-text">Accepted&nbsp&nbsp;<i style="color:#fff; font-size:20px" class="fas fa-check-circle"></i></span></a>
                     </div>
-                    
+
                         </div>`;
                         html += htmlSegment;
                 }
             })
-            // .catch(err => console.log(err))
 
-            // count = 0 can be due to 2 reasons when user has not logged in or when the 
+            // count = 0 can be due to 2 reasons when user has not logged in or when the
             // count of solved probelms = 0.
-            
+
             if(count==0 && !user){
                 html = `<div style="margin:80px auto;">
                 <h1 style="font-weight:bold; color:red;">OOPS, Error!!&nbsp;<i class="fas fa-frown" style="color:#FFC93C"></i></h1>
@@ -70,13 +69,13 @@ function UserSolvedProblems(user) {
             }
             let container = document.getElementById('solved-problems-container');
             container.innerHTML = html;
-            
+
         });
       };
-    
+
     printAddress();
     return null;
-    
+
 }
 
 export default DisplaySolvedProblems
