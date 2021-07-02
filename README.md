@@ -56,4 +56,4 @@ npm start
 - AI and advanced mathematics enabled user's progress detection and suggesting learning paths.
 - Gamification of the Application and planned learning roadmap for the users.
 
-## Hope you like it
+## Hope you like it ❤️
