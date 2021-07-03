@@ -48,6 +48,29 @@ npm start
 - Peer.js Library and WebRTC
 
 ## Snapshots
+- ### Problems by their tags:
+<p align="center"><img src="screenshots/problems.png" width = 80%></p><br>
+
+- ### Register:
+<p align="center"><img src="screenshots/register.png" width = 80%></p><br>
+
+- ### Login:
+<p align="center"><img src="screenshots/login.png" width = 80%></p><br>
+
+- ### Solved Problems:
+<p align="center"><img src="screenshots/solved-problems.png" width = 80%></p><br>
+
+- ### About:
+<p align="center"><img src="screenshots/About.png" width = 80%></p><br>
+
+- ### create Tasks:
+<p align="center"><img src="screenshots/createTodo.png" width = 80%></p><br>
+
+- ### Task list:
+<p align="center"><img src="screenshots/todoList.png" width = 80%></p><br>
+
+- ### Code Editor:
+<p align="center"><img src="screenshots/CodeEditor.png" width = 80%></p><br>
 
 ## Future aspects
 - Displaying graphs to user to show the progress and notify user about upcoming contests.
