@@ -42,7 +42,7 @@ npm start
 ## Technologies used
 - Frontend- HTML, CSS, Bootstarp, Flexbox, Javascript
 - Backend- ejs, Express.js, Node.js
-- Framworks- React
+- Frameworks- React
 - Database- MongoDB, Atlas
 - Socket.io
 - Peer.js Library and WebRTC
