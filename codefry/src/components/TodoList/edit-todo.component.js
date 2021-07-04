@@ -1,4 +1,3 @@
-import render from 'dom-serializer';
 import React, {Component} from 'react';
 import axios from 'axios';
 

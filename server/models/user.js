@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const Joi = require("joi");
 const jwt = require("jsonwebtoken");
+const { Todo } = require("./todo.model");
 
 const userSchema = new mongoose.Schema({
   name: {
@@ -30,16 +31,14 @@ const userSchema = new mongoose.Schema({
     type: Boolean,
     default: false,
   },
+  todos: {
+    type: [mongoose.Schema.Types.ObjectId],
+    ref: "Todo", 
+    default: []
+  },
 });
-const User = mongoose.model("User", userSchema);
 
-userSchema.methods.generateAuthToken = function () {
-  const token = jwt.sign(
-    { _id: this._id, isAdmin: this.isAdmin },
-    config.get("jwtPrivateKey")
-  );
-  return token;
-};
+const User = mongoose.model("User", userSchema);
 
 // for registering validattion
 function validateUser(user) {

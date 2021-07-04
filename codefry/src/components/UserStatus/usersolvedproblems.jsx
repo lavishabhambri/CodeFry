@@ -34,7 +34,7 @@ function UserSolvedProblems(user) {
                 const tags = problem.problem.tags;
                 const problemName = problem.problem.name;
                 const rating = problem.problem.rating;
-                if (verdict == "OK"){
+                if (verdict === "OK"){
                     count++;
                     let problemUrl="https://codeforces.com/problemset/problem/"+contestID+"/"+index;
 
@@ -55,7 +55,7 @@ function UserSolvedProblems(user) {
             // count = 0 can be due to 2 reasons when user has not logged in or when the
             // count of solved probelms = 0.
 
-            if(count==0 && !user){
+            if(count === 0 && !user){
                 html = `<div style="margin:80px auto;">
                 <h1 style="font-weight:bold; color:red;">OOPS, Error!!&nbsp;<i class="fas fa-frown" style="color:#FFC93C"></i></h1>
                 <br />

@@ -115,8 +115,6 @@ class Log extends Form {
         // <div className="container col-lg-3 col-md-6 border rounder mt-1 p-3 text-center">
         //   New User? <Link to="/users/register">Register Here</Link>
         // </div>
-        // <ToastContainer />
-
     );
   }
 }
