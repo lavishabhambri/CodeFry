@@ -63,7 +63,7 @@ npm start
 - ### About:
 <p align="center"><img src="screenshots/About.png" width = 80%></p><br>
 
-- ### create Tasks:
+- ### Create your Tasks:
 <p align="center"><img src="screenshots/createTodo.png" width = 80%></p><br>
 
 - ### Task list:
