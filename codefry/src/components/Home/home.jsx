@@ -13,7 +13,7 @@ function home(user) {
     const printAllSolvedProblems = () => {
         data.then((a) => {
             const status = a.status;
-            if(status != "FAILED"){
+            if(status !== "FAILED"){
                 <UserSolvedProblems user={user.user} />
             }
         });

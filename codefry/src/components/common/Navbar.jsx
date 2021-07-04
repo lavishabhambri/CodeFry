@@ -24,21 +24,56 @@ class Navbar extends Component {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul className="navbar-nav mr-auto mt-2 mt-lg-0" style={{textAlign:"right", marginRight:"20px"}}>
+          <ul
+            className="navbar-nav mr-auto mt-2 mt-lg-0"
+            style={{ textAlign: "right", marginRight: "20px" }}
+          >
             <li className="nav-item active">
-              <a className="navbar-brand text-white" style={{ paddingBottom: "0%", paddingTop: "0%", textAlign:"left"}} href="#"><span><strong style={{ color: "#F4A4A4", fontSize: "22px", fontWeight: "bold" }}><img src={logoImage} style={{ width: "20%" }}></img></strong></span></a>
+              {/* eslint-disable-next-line */}
+              <a
+                className="navbar-brand text-white"
+                style={{
+                  paddingBottom: "0%",
+                  paddingTop: "0%",
+                  textAlign: "left",
+                }}
+              >
+                <span>
+                  <strong
+                    style={{
+                      color: "#F4A4A4",
+                      fontSize: "22px",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    <img src={logoImage} style={{ width: "20%" }} alt="codefry"/>
+                  </strong>
+                </span>
+              </a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link text-white navbar-item1" href="/"><span className="navbar-item">Home</span> </a>
+              <a className="nav-link text-white navbar-item1" href="/">
+                <span className="navbar-item">Home</span>{" "}
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white no-decoration" href="/users/login/solved"><span className="navbar-item">Problems</span> </a>
+              <a
+                className="nav-link text-white no-decoration"
+                href="/users/login/solved"
+              >
+                <span className="navbar-item">Problems</span>{" "}
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white no-decoration" href="/codelive"><span className="navbar-item">Code-Live</span> </a>
+              <a className="nav-link text-white no-decoration" href="/codelive">
+                <span className="navbar-item">Code-Live</span>{" "}
+              </a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link text-white no-decoration" href="/about"><span className="navbar-item">About</span>  <span className="sr-only">(current)</span></a>
+              <a className="nav-link text-white no-decoration" href="/about">
+                <span className="navbar-item">About</span>{" "}
+                <span className="sr-only">(current)</span>
+              </a>
             </li>
 
             <li>
@@ -55,29 +90,65 @@ class Navbar extends Component {
                   </a>
                 </button>
               )}
-
-
             </li>
             <li>
+              {user && (
+                <li
+                  class="nav-item dropdown"
+                  style={{ margin: "5px auto auto 25px" }}
+                >
+                  <i
+                    className="fas fa-user-circle nav-link"
+                    style={{ fontSize: "26px", color: "#FFC947" }}
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  ></i>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a
+                      style={{ textDecoration: "none" }}
+                      class="dropdown-item todo-dropdown-items"
+                      href="/todo/create"
+                    >
+                      <a
+                        style={{ textDecoration: "none" }}
+                        target="blank"
+                        href={
+                          "https://codeforces.com/profile/" + user.CF_username
+                        }
+                      >
+                        {user.CF_username}
+                      </a>
+                    </a>
 
-            {user && (
-              <li class="nav-item dropdown" style={{margin:"5px auto auto 25px"}}>
-              <i className="fas fa-user-circle nav-link" style={{fontSize:"26px",color:"#FFC947"}} id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-
-                  <a style={{ textDecoration: "none"}} class="dropdown-item todo-dropdown-items" href="/todo/create"><a style={{ textDecoration: "none"}} target="blank" href={"https://codeforces.com/profile/" + user.CF_username}>{user.CF_username}</a></a>
-
-                  <a style={{ textDecoration: "none"}} class="dropdown-item todo-dropdown-items" href="/todo/create">Create Todo</a>
-                  <a style={{ textDecoration: "none"}} class="dropdown-item todo-dropdown-items" href="/todo">My Todos</a>
-                  <div class="dropdown-divider"></div>
-                  <a style={{ textDecoration: "none"}} class="dropdown-item todo-dropdown-items" href="/users/logout">Logout</a>
-                </div>
-              </li>
-            )}
-
+                    <a
+                      style={{ textDecoration: "none" }}
+                      class="dropdown-item todo-dropdown-items"
+                      href="/todo/create"
+                    >
+                      Create Todo
+                    </a>
+                    <a
+                      style={{ textDecoration: "none" }}
+                      class="dropdown-item todo-dropdown-items"
+                      href="/todo"
+                    >
+                      My Todos
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a
+                      style={{ textDecoration: "none" }}
+                      class="dropdown-item todo-dropdown-items"
+                      href="/users/logout"
+                    >
+                      Logout
+                    </a>
+                  </div>
+                </li>
+              )}
             </li>
-
-
           </ul>
         </div>
       </nav>
@@ -86,7 +157,6 @@ class Navbar extends Component {
 }
 
 export default Navbar;
-
 
 // {user && (
 //   <li>
@@ -104,13 +174,13 @@ export default Navbar;
 // )}
 
 // {user && (
-  // <button
-  //   type="button"
-  //   className="btn btn-info"
-  //   id="navbar-button"
-  // >
-  //   <a href="/users/logout" style={{ textDecoration: "none" }}>
-  //     <span style={{ color: "#000" }}>Logout</span>
-  //   </a>
-  // </button>
+// <button
+//   type="button"
+//   className="btn btn-info"
+//   id="navbar-button"
+// >
+//   <a href="/users/logout" style={{ textDecoration: "none" }}>
+//     <span style={{ color: "#000" }}>Logout</span>
+//   </a>
+// </button>
 //

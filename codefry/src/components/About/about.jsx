@@ -8,7 +8,7 @@ function About(){
         <div className="container about-container">
             <div className="row">
                 <div className="col-md-6">
-                    <img className="about-img" src={logoImage} alt="codefry-image" />
+                    <img className="about-img" src={logoImage} alt="codefry" />
                 </div>
                 <div className="col-md-6">
                     <div className="about-heading-container">

@@ -1,4 +1,3 @@
-import render from 'dom-serializer';
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
@@ -16,7 +15,7 @@ const Todo = props => (
     </tr>
 )
 
-export default class TodosList extends Component{
+export default class TodosList extends Component {
     constructor(props) {
         super(props);
         this.state = {

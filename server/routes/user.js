@@ -6,8 +6,6 @@ const _ = require("lodash");
 const Joi = require("joi");
 const { User, validates, validateUser } = require("../models/user");
 const auth = require("../middleware/isAuth");
-const { valid } = require("joi");
-const { runInContext } = require("lodash");
 const router = express.Router();
 
 router.post("/register", async (req, res) => {
