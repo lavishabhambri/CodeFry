@@ -10,7 +10,7 @@ const Todo = props => (
         <td className={props.todo.todo_completed ? 'completed' : ''}>{props.todo.todo_deadline}</td>
         <td className={props.todo.todo_completed ? 'completed' : ''}>{props.todo.todo_priority}</td>
         <td>
-            <Link to={"/todo/edit/"+props.todo._id}>Edit</Link>
+            <Link to={"/todos/update/"+props.todo._id}>Edit</Link>
         </td>
     </tr>
 )
@@ -24,7 +24,7 @@ export default class TodosList extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:4000/todos/')
+        axios.get('http://localhost:4000/todos')
             .then(response => {
                 this.setState({todos: response.data});
             })
@@ -34,15 +34,15 @@ export default class TodosList extends Component {
     }
 
     // For updating the completed items instantly
-    componentDidUpdate() {
-        axios.get('http://localhost:4000/todos/')
-        .then(response => {
-            this.setState({todos: response.data});
-        })
-        .catch(function (error) {
-            console.log(error);
-        })
-    }
+    // componentDidUpdate() {
+    //     axios.get('http://localhost:4000/todos/')
+    //     .then(response => {
+    //         this.setState({todos: response.data});
+    //     })
+    //     .catch(function (error) {
+    //         console.log(error);
+    //     })
+    // }
 
     todoList() {
         return this.state.todos.map(function(currentTodo, i) {

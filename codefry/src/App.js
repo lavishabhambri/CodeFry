@@ -44,9 +44,9 @@ class App extends React.Component {
             <Route exact path="/users/login/solved" render={() => <DisplaySolvedProblems user={user} />}/>
 
              {/* Todo routes */}
-            <Route path="/todo" exact component={ TodosList }></Route>
-            <Route path="/todo/edit/:id" component={ EditTodo }></Route>
-            <Route path="/todo/create" component={ CreateTodo }></Route>
+            <Route path="/todos" exact component={ TodosList }></Route>
+            <Route path="/todos/update/:id" component={ EditTodo }></Route>
+            <Route path="/todos/create" component={ CreateTodo }></Route>
 
             {/* Code Editor */}
             <Route path="/codelive" exact component={ Editor }></Route>
