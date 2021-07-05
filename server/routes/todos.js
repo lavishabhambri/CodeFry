@@ -48,7 +48,7 @@ router.post('/update/:id', async (req, res) => {
               todo_priority : req.body.todo_priority,
               todo_completed : req.body.todo_completed
             }
-        },{ upsert:false , new: false},
+        },{ upsert:false , new: true},
         function(err,doc){
           if(err) return res.send(err);
           return res.send("Succesfully Updated!");
