@@ -110,7 +110,7 @@ class Navbar extends Component {
                     <a
                       style={{ textDecoration: "none" }}
                       class="dropdown-item todo-dropdown-items"
-                      href="/todo/create"
+                      // href="/todos/create"
                     >
                       <a
                         style={{ textDecoration: "none" }}
@@ -126,14 +126,14 @@ class Navbar extends Component {
                     <a
                       style={{ textDecoration: "none" }}
                       class="dropdown-item todo-dropdown-items"
-                      href="/todo/create"
+                      href="/todos/create"
                     >
                       Create Todo
                     </a>
                     <a
                       style={{ textDecoration: "none" }}
                       class="dropdown-item todo-dropdown-items"
-                      href="/todo"
+                      href="/todos"
                     >
                       My Todos
                     </a>

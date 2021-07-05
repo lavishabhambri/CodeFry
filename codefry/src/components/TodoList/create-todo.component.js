@@ -61,7 +61,7 @@ export default class CreateTodo extends Component{
         }
 
         // Make a call using axios library
-        axios.post('http://localhost:4000/todos/add', newTodo)
+        axios.post('http://localhost:4000/todos/create', newTodo)
             .then(res => console.log(res.data));
 
 
