@@ -69,6 +69,11 @@ class Navbar extends Component {
                 <span className="navbar-item">Code-Live</span>{" "}
               </a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link text-white no-decoration" target="_blank" href="https://codefry-meet.herokuapp.com/">
+                <span className="navbar-item">Meet</span>{" "}
+              </a>
+            </li>
             <li className="nav-item active">
               <a className="nav-link text-white no-decoration" href="/about">
                 <span className="navbar-item">About</span>{" "}
