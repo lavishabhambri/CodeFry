@@ -8,7 +8,7 @@ const auth = require("../middleware/isAuth");
 
 router.get("/", async (req, res) => {
   try {
-    const todos = await Todos({});
+    const todos = await Todo({});
     res.send(todos);
   } catch (err) {
     throw err;
@@ -27,20 +27,25 @@ router.get("/:id", async (req, res) => {
 });
 
 // For adding a todo in todo-list is  a user who is logged in
-router.post("/add", auth, async (req, res) => {
+router.post("/create", auth, async (req, res) => {
   const todo = new Todo(req.body);
   await todo.save();
-  console.log(todo);
   const user = await User.findById(req.user._id);
   const todoArray = user.todos;
   todoArray.push(todo);
   user.todos = todoArray;
   try {
     const result = await user.save();
-    res.send(result.todos);
+    const user_updated = await User.findById(req.user._id).populate("todos");
+    console.log(user_updated.todos);
+    res.send(user_updated.todos);
   } catch (ex) {
-    res.send(ex);
+    throw(ex);
   }
+});
+
+router.get('/me',  async (req, res) => {
+  return res.send("hello");
 });
 
 // For updating a todo in todo-list , here id is passed to know which object to update
