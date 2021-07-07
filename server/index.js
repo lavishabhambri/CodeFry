@@ -5,6 +5,7 @@ const app = express();
 const user = require("./routes/user");
 const bodyParser = require('body-parser');
 const todos = require('./routes/todos');
+const code = require('./routes/code');
 require('dotenv').config({
   path: './config/config.env'
 })
@@ -35,7 +36,7 @@ const port = process.env.PORT || 4000;
 // Router
 app.use("/users", user);
 app.use('/todos', todos);
-
+app.use('/code', code);
 
 app.listen(port, () => {
   console.log(`App running on port ${port}`);
