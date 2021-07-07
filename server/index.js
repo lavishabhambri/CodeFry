@@ -23,10 +23,6 @@ mongoose
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("could not connect to mongoDB"));
 
-const connection = mongoose.connection;
-connection.once('open', function() {
-    console.log("MongoDB database connection established successfully");
-})
 
 
 app.use(express.json());
