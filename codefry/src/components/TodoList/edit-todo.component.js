@@ -80,15 +80,17 @@ export default class EditTodo extends Component {
       .then((res) => console.log(res.data));
 
     // navigate user to home
-    this.props.history.push("/todos");
+    this.props.history.push("/todos/create");
   }
 
   render() {
     return (
+      <div>
       <div
         style={{
-          padding: "6%",
           margin: "auto 60px",
+          padding:"1%",
+          width:"300px",
           backgroundColor: "#ECF0F3",
         }}
       >
@@ -181,6 +183,7 @@ export default class EditTodo extends Component {
             </div>
           </div>
         </form>
+      </div>
       </div>
     );
   }

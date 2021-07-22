@@ -21,7 +21,7 @@ function home(user) {
 
     return (
         <div style={{backgroundColor:"#ECF0F3"}}>
-            <h1 style={{marginTop:"0px", padding:"2% 28px 0%", fontFamily: "Google Sans",fontSize:"4rem"}}>Problem Tags</h1>
+            {/* <h1 style={{marginTop:"0px", padding:"2% 28px 0%", fontFamily: "Google Sans",fontSize:"4rem"}}>Problem Tags</h1> */}
             <DisplayTags />
             <printAllSolvedProblems/>
         </div>
