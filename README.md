@@ -1,5 +1,70 @@
-# CodeFry
-Codefry is a MernStack Web Application, based upon the user’s Codeforces profile handles, helps programmers to code together and eases their tasks in the online schedule.
+
+<h1 align="center">CODEFRY - A Programming Community Application</h1>
+
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
+
+<h2 align="center" id="content"> 🗂 CONTENT:</h2>
+
+```diff
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+```
+> `📌` [OpenSource](#OpenSource)<br>
+>> `📌` [Inspiration](#Inspiration)<br>
+>>> `📌` [Tech Stack](#TechStack)<br>
+>>>> `📌` [Features](#Features)<br>
+>>>>> `📌` [How to get started](#Howtogetstarted?)<br>
+>>>>>> `📌` [Steps to follow ](#Stepstofollow)<br>
+>>>>>>> `📌` [Developed By](#DevelopedBy)<br>
+>>>>>>>> `📌` [ScreenShots](#ScreenShots)<br>
+>>>>>>>>> `📌` [Features We Demand](#FeaturesWeDemand)<br>
+```diff
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+```
+<br><br>
+
+<h2 align="center" id="Inspiration"> :label: Inspiration</h2>
+Considering the present condition due to Covid-19, distant and remote learning has been of everyone's life. We wanted to give it a try from our end to address the issues faced by programmers in a simpler way.
+
+Using the most powerful weapon with humanity - technology, we decided to solve the issue by introducing Codefry Application. It is a MernStack Web Application, based upon the user’s Codeforces profile handles, helps programmers to code together and eases their tasks in the online schedule.
+
+<i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
+
+<br><br>
+
+<!-- - Frontend- HTML, CSS, Bootstarp, Flexbox, Javascript
+- Backend- ejs, Express.js, Node.js
+- Frameworks- React
+- Database- MongoDB, Atlas
+- Socket.io
+- Peer.js Library and WebRTC -->
+
+<h2 align="center" id="TechStack"> :label: Tech Stack
+
+```diff
++ HTML, CSS, Bootstarp, Javascript +
++ ejs, Express.js, Node.js +
++ React +
++ MongoDB, Atlas +
++ Socket.io +
++ Peer.js Library and WebRTC + 
+```
+</h2>
+
+<h2 align="center" id="Features"> :label: Features</h2>
+
+  #### Main Features
+  :point_right: Codefry helps users to improve their coding skills by practising Codeforces problems by their tags. <br>
+  :point_right: The user can also look at their solved problems by logging into their account.<br>
+  :point_right: A personalised Todo list is available for the users to note down the deadlines of the coding contests and their favourite problems.<br>
+  :point_right: Users can create personalised room with other coders, run & debug codes and have video and audio calling feature.<br>
+  :point_right: A code editor is also present for the user to run the code in four languages - C, C++, Python and Java.<br>
+  
 
 ## Setup (APIs used)
 Following APIs are required to run this web app:
@@ -169,20 +234,14 @@ npm start
 31 directories, 99 files
 ```
 
-## Features
+<!-- ## Features
 - Codefry helps users to improve their coding skills by practising Codeforces problems by their tags. 
 - The user can also look at their solved problems by logging into their account.
 - A personalised Todo list is available for the users to note down the deadlines of the coding contests and their favourite problems.
 - Users can create personalised room with other coders, run & debug codes and have video and audio calling feature.
-- A code editor is also present for the user to run the code in four languages - C, C++, Python and Java.
+- A code editor is also present for the user to run the code in four languages - C, C++, Python and Java. -->
 
-## Technologies used
-- Frontend- HTML, CSS, Bootstarp, Flexbox, Javascript
-- Backend- ejs, Express.js, Node.js
-- Frameworks- React
-- Database- MongoDB, Atlas
-- Socket.io
-- Peer.js Library and WebRTC
+
 
 ## Snapshots
 - ### Problems by their tags:
