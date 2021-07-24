@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios'; 
-
+import TodosList from './todos-list.component';
 
 export default class CreateTodo extends Component{
     constructor(props) {
@@ -77,8 +77,14 @@ export default class CreateTodo extends Component{
 
     render() {
         return (
-
-            <div style={{ padding:"6%",margin:"auto 60px", backgroundColor:"#ECF0F3"}}>
+            <div class="container">
+                <div class="row">
+                    <TodosList/>
+                    
+                
+            <div style={{ padding:"6%", backgroundColor:"#ECF0F3"}}
+            className="col col-lg-6 col-md-6 col-sm-12"
+            >
 
                 <h3 style={{fontFamily: 'Google Sans',fontSize:"4rem"}}>Create New Todo</h3>
 
@@ -148,6 +154,8 @@ export default class CreateTodo extends Component{
                         <input type="submit" value="Create Todo" className="btn btn-primary" />
                     </div>
                 </form>
+            </div>
+            </div>
             </div>
         )
     }

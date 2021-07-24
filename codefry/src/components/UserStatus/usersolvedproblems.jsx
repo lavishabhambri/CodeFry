@@ -4,7 +4,7 @@ import "./../ProblemSets/showProblems.css"
 function DisplaySolvedProblems (user) {
     return (
         <div style={{backgroundColor: '#ecf0f3'}}>
-        <h1 style={{textAlign:"center",padding:"3% 0%", fontFamily: "Google Sans", marginTop:"0px", fontSize:"4rem"}}>Your Solved Problems</h1>
+        <h1 style={{textAlign:"center",padding:"3% 0%", fontFamily: "Google Sans", marginTop:"0px", fontSize:"4rem"}}>Solved Problems</h1>
         <div id="solved-problems-container" className="solved-problems-container-class"></div>
         {UserSolvedProblems(user)}
         </div>

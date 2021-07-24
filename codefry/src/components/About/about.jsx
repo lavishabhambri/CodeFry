@@ -66,7 +66,7 @@ function About(){
                 <i class="fas fa-video color-l-yellow"></i>
                   {/* <i className="icon-speech-streamline-talk-user color-l-yellow"></i>  */}
                 </div>
-                <h5>Collaborative Live Code editor</h5>
+                <h5>Code editor & Codefry meet</h5>
                 <p>A live code-editor is available for the users to create personalised room with other coders, run & debug codes and have video and audio calling feature.</p>
               </div>
             </div>
