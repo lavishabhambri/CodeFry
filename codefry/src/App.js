@@ -53,7 +53,7 @@ class App extends React.Component {
             <Route path="/codelive" exact component={ Editor }></Route>
 
             {/* Drawing Board */}
-            <Route path="/draw" exact component={ Container }></Route>
+            {/* <Route path="/draw" exact component={ Container }></Route> */}
 
             <Redirect to="/not-found" />
         </Switch>
