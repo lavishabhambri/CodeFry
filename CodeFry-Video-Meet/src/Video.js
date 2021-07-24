@@ -11,6 +11,7 @@ import ScreenShareIcon from '@material-ui/icons/ScreenShare'
 import StopScreenShareIcon from '@material-ui/icons/StopScreenShare'
 import CallEndIcon from '@material-ui/icons/CallEnd'
 import ChatIcon from '@material-ui/icons/Chat'
+import 'font-awesome/css/font-awesome.min.css'
 
 import { message } from 'antd'
 import 'antd/dist/antd.css'
@@ -455,11 +456,11 @@ class Video extends Component {
 			<div>
 				{this.state.askForUsername === true ?
 					<div>
-						<div style={{background: "white", width: "30%", height: "auto", padding: "20px", minWidth: "400px",
-								textAlign: "center", margin: "auto", marginTop: "50px", justifyContent: "center"}}>
-							<p style={{ margin: 0, fontWeight: "bold", paddingRight: "50px" }}>Set your username</p>
+						<div style={{background: "white", boxShadow:  "16px 16px 32px #c9cccf,-16px -16px 32px #ffffff", width: "30%", height: "auto", padding: "20px", minWidth: "400px",
+								textAlign: "center", margin: "auto", marginTop: "50px", justifyContent: "center", borderRadius:"10px"}}>
+							<p style={{ margin: 0, fontWeight: "bold", paddingRight: "50px" }}><span style={{color:"#6474E5"}}>Set your username</span></p>
 							<Input placeholder="Username" value={this.state.username} onChange={e => this.handleUsername(e)} />
-							<Button variant="contained" className="userConnectButton" onClick={this.connect} style={{ margin: "20px" }}>Connect</Button>
+							<Button variant="contained" className="btn userConnectButton" onClick={this.connect} style={{ margin: "20px" }}><span style={{color:"#fff"}}>Connect</span></Button>
 
 						</div>
 
@@ -494,6 +495,10 @@ class Video extends Component {
 									<ChatIcon />
 								</IconButton>
 							</Badge>
+
+							<IconButton style={{ color: "#424242" }} onClick={()=> window.open("http://localhost:8000/draw", "_blank")}>
+								<i class="fa fa-paint-brush"></i>
+								</IconButton>
 						</div>
 
 						<Modal show={this.state.showModal} onHide={this.closeChat} style={{ zIndex: "999999" }}>
@@ -524,7 +529,7 @@ class Video extends Component {
 							<Row id="main" className="flex-container" style={{ margin: 0, padding: 0 }}>
 								<video id="my-video" ref={this.localVideoref} autoPlay muted style={{
 									borderStyle: "solid",borderColor: "#bdbdbd",margin: "10px",objectFit: "fill",
-									width: "100%",height: "100%"}}></video>
+									width: "70%", height: "100%"}}></video>
 							</Row>
 						</div>
 					</div>
