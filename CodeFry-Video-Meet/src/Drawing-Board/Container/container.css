@@ -2,30 +2,36 @@
     /* position: fixed; */
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, #03A9F4, #4CAF50);
+    background: linear-gradient(45deg, #f4a4a4, #6474E5);
 }
 
 
 .color-picker-container{
     text-align: center;
     display: inline;
-    color: white;
+    color: black;
 }
 
 .brushsize-container{
     display: inline;
-    color: white;
+    color: black;
     margin-left: 12px;
 }
 
 .tools-section{
     text-align: center;
+    padding-top: 20px;
 }
 
 .board-container{
     width: 90%;
     height: 90%;
-    margin: auto;
-    margin-top: 1%;
+    margin: 1% auto;
     background: white;
+    border-radius: 25px;
+}
+.spanTitle{
+    color: white;
+    font-size: 25px;
+    margin: 0px 0px 0px 15px;
 }
