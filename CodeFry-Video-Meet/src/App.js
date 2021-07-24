@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import  ContainerBoard from './Drawing-Board/Container/container';
 
 
+
 class App extends Component {
 	render() {
 		return (
@@ -18,6 +19,7 @@ class App extends Component {
 						
 						<Route path="/:url" component={Video} />
 						
+
 					</Switch>
 				</Router>
 			</div>
