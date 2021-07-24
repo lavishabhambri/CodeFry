@@ -39,7 +39,6 @@ class Home extends Component {
 				}}>
 					<p style={{ margin: 0, fontWeight: "bold", paddingRight: "50px" }}>Start or join a meeting</p>
 					<Input placeholder="URL" onChange={e => this.handleChange(e)} />
-
 					<Button className="joinButton" onClick={this.join} style={{ margin: "20px", width:"40px", height:"40px",borderRadius:"50%", padding:"5%" }}>Go</Button>
 
 				</div>
