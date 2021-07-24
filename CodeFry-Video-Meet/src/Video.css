@@ -39,7 +39,8 @@ body {
 }
 .userConnectButton{
     border-radius: 19px;
-    background: linear-gradient(145deg, #d4d8db, #fdffff);
+    
+    background: linear-gradient(90deg, #f4a4a4, #6474E5);
     box-shadow:  16px 16px 32px #c9cccf,
              -16px -16px 32px #ffffff;
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import Board from '../Board/board';
-import "./../Container/container.css"
+import "./../Container/container.css";
+import 'font-awesome/css/font-awesome.min.css';
 
 
 class Container extends React.Component{
@@ -36,17 +37,18 @@ class Container extends React.Component{
             <div className="container-fluid draw-container">
                 <div className="tools-section">
                     <div className="color-picker-container">
-                        Select Brush color: &nbsp;
-                        <input type="color" value={this.state.color} onChange={this.changeColor.bind(this)}/>
+                      <span className="spanTitle">  Color: &nbsp;</span>
+                        <input type="color" style={{width:"55px", height:"45px", padding:"8px", borderRadius:"7px", borderColor:"white", backgroundColor:"#F8F9FA"}} value={this.state.color} onChange={this.changeColor.bind(this)}/>
                     </div>
 
                     <div className="color-picker-container eraserButton">
-                        <button onClick={this.erase.bind(this)}/>
+                    <span className="spanTitle">  Eraser: &nbsp;</span>
+                        <button className="btn btn-light" onClick={this.erase.bind(this)}><i class="fa fa-eraser"></i></button>
                     </div>
 
                     <div className="brushsize-container">
-                        Select Brush Size: &nbsp;
-                        <select value={this.state.size} onChange={this.changeSize.bind(this)}>
+                    <span className="spanTitle">  Size: &nbsp;</span>
+                        <select  style={{width:"55px", height:"45px", padding:"8px", borderRadius:"7px", borderColor:"white", backgroundColor:"#F8F9FA"}} value={this.state.size} onChange={this.changeSize.bind(this)}>
                             <option>5</option>
                             <option>10</option>
                             <option>15</option>
