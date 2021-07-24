@@ -5,6 +5,9 @@ const app = express();
 const user = require("./routes/user");
 const bodyParser = require('body-parser');
 const todos = require('./routes/todos');
+var http = require('http').createServer(app);
+var io = require('socket.io')(http);
+
 require('dotenv').config({
   path: './config/config.env'
 })
@@ -23,10 +26,6 @@ mongoose
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("could not connect to mongoDB"));
 
-const connection = mongoose.connection;
-connection.once('open', function() {
-    console.log("MongoDB database connection established successfully");
-})
 
 
 app.use(express.json());
@@ -35,6 +34,22 @@ app.use(cors());
 
 
 const port = process.env.PORT || 4000;
+
+// Drawing board part
+io.on('connection', (socket)=>{
+  console.log("User Online");
+
+  socket.on('canvas-data', (data)=>{
+    socket.broadcast.emit('canvas-data', data);
+  })
+})
+
+
+// http.listen(port, ()=>{
+//   console.log("Started");
+// })
+
+
 
 // Router
 app.use("/users", user);

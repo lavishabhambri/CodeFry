@@ -18,6 +18,7 @@ import CreateTodo from './components/TodoList/create-todo.component';
 import EditTodo from './components/TodoList/edit-todo.component';
 import TodosList from './components/TodoList/todos-list.component';
 import Editor from "./components/Editor/editor.jsx";
+import Container from "./components/Drawing-Board/Container/container.jsx";
 
 class App extends React.Component {
   state = {};
@@ -50,6 +51,10 @@ class App extends React.Component {
 
             {/* Code Editor */}
             <Route path="/codelive" exact component={ Editor }></Route>
+
+            {/* Drawing Board */}
+            {/* <Route path="/draw" exact component={ Container }></Route> */}
+
             <Redirect to="/not-found" />
         </Switch>
         <Footer />
