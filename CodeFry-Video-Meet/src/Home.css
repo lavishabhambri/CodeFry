@@ -4,7 +4,7 @@ html, body {
 body {
 	margin: 0;
 	text-align: center;
-	background-color: whitesmoke;
+	background-color: rgb(236, 240, 243);
 }
 
 .container2 {
@@ -13,4 +13,21 @@ body {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+}
+.myHomeMeetLink{
+	border-radius: 19px;
+	background: #ECF0F3;
+	box-shadow:  18px 18px 32px #c9cccf,
+             -18px -18px 32px #ffffff;
+}
+
+.joinButton{
+	background: linear-gradient(145deg, #d4d8db, #fdffff);
+	box-shadow:  8px 8px 16px #c9cccf,
+             -8px -8px 16px #ffffff;
+}
+.joinButton:hover{
+	background: linear-gradient(145deg, #d4d8db, #fdffff);
+	box-shadow:  4px 4px 16px #c9cccf,
+             -4px -4px 16px #ffffff;
 }
