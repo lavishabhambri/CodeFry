@@ -2,7 +2,6 @@
 <h1 align="center">CODEFRY - A Programming Community Application</h1>
 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
@@ -11,21 +10,16 @@
 
 <h2 align="center" id="content"> 🗂 CONTENT:</h2>
 
-```diff
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-```
-> `📌` [OpenSource](#OpenSource)<br>
->> `📌` [Inspiration](#Inspiration)<br>
->>> `📌` [Tech Stack](#TechStack)<br>
->>>> `📌` [Features](#Features)<br>
->>>>> `📌` [How to get started](#Howtogetstarted?)<br>
->>>>>> `📌` [Steps to follow ](#Stepstofollow)<br>
->>>>>>> `📌` [Developed By](#DevelopedBy)<br>
->>>>>>>> `📌` [ScreenShots](#ScreenShots)<br>
->>>>>>>>> `📌` [Features We Demand](#FeaturesWeDemand)<br>
-```diff
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-```
+
+1. [Inspiration](#Inspiration)<br>
+2. [Tech Stack](#TechStack)<br>
+3. [Features](#Features)<br>
+4. [How to get started](#Howtogetstarted?)<br>
+5. [Steps to follow ](#Stepstofollow)<br>
+6. [Developed By](#DevelopedBy)<br>
+7. [ScreenShots](#ScreenShots)<br>
+8. [Features We Demand](#FeaturesWeDemand)<br>
+
 <br>
 
 <h2 align="center" id="Inspiration"> :label: Inspiration</h2>
@@ -33,7 +27,7 @@ Considering the present condition due to Covid-19, distant and remote learning h
 
 Using the most powerful weapon with humanity - technology, we decided to solve the issue by introducing Codefry Application. It is a MernStack Web Application, based upon the user’s Codeforces profile handles, helps programmers to code together and eases their tasks in the online schedule.
 
-<i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
+<i><p align="left"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
 <br>
 
@@ -46,14 +40,13 @@ Using the most powerful weapon with humanity - technology, we decided to solve t
 
 <h2 align="center" id="TechStack"> :label: Tech Stack
 
-```diff
-+ HTML, CSS, Bootstarp, Javascript +
-+ ejs, Express.js, Node.js +
-+ React +
-+ MongoDB, Atlas +
-+ Socket.io +
-+ Peer.js Library and WebRTC + 
-```
+- Frontend- HTML, CSS, Bootstarp, Flexbox, Javascript
+- Backend- ejs, Express.js, Node.js
+- Frameworks- React
+- Database- MongoDB, Atlas
+- Socket.io
+- Peer.js Library and WebRTC
+
 </h2>
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 <br>
