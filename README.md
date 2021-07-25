@@ -58,6 +58,13 @@ Using the most powerful weapon with humanity - technology, we decided to solve t
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 <br>
 
+## Setup (APIs used)
+Following APIs are required to run this web app:
+
+- [Codeforces Problem Set API](https://codeforces.com/api/problemset.problems?tags=implementation)
+- [Codeforces User Status API](https://codeforces.com/api/user.status?handle=Fefer_Ivan&from=1&count=10)
+- [Rapid Judge API](https://judge0-ce.p.rapidapi.com/submissions)
+
 <h2 align="center" id="Features"> :label: Features</h2>
 
   #### Main Features
@@ -83,6 +90,29 @@ You can refer to the following articles on the basics of Git and Github and also
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 <br>
 
+## Instructions
+
+#### Environment Variables
+- Place the API keys in `.env` with your own
+
+## How to run?
+Install dependencies
+- Inside both codefry and server directories
+```` 
+npm install
+```` 
+Run local Database server
+```` 
+mongod
+```` 
+Inside server
+```` 
+node index.js
+````
+Inside codefry
+```` 
+npm start
+````
 
 <h2 align="center" id="Stepstofollow"> ⭐ Steps to follow :scroll:</h2>
 
@@ -168,9 +198,9 @@ $ git push origin master
 
 
 
-<!-- ### 5️⃣ Ready Steady Go... :turtle: :rabbit2:
+### 5️⃣ Ready Steady Go... :turtle: :rabbit2:
 
-Once you have completed these steps, you are ready to start contributing by checking our `Help Wanted` Issues and creating [pull requests](https:/shagun25/SheHeroes/github.com//pulls).
+Once you have completed these steps, you are ready to start contributing by checking our `Help Wanted` Issues and creating [pull requests](https://github.com/lavishabhambri/CodeFry/pulls).
 
 <br>
 
@@ -223,182 +253,21 @@ Then add a title and description to your pull request that explains your preciou
 
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
-<br> -->
+<br><br>
 
 
+<h2 align="center" id="DevelopedBy"> :label: Developed By</h2>
+ - <a href="https://github.com/lavishabhambri">Lavisha Bhambri</a> 
+ - <a href="https://github.com/vaibhavpathak999">Vaibhav Pathak</a> 
+ - <a href="https://github.com/devk232">Dev Krishna Sadana</a> 
+ 
+# Note:
+Look into [Contributing Guidelines](https://github.com/kavania2002/MobiMart/blob/main/.github/contributing.md) for contributing to this repository.
+- Don't make PR directly, make issues first, once you are assigned, start working and then create a PR
+<!-- -**Kindly join the Project Channel for discussions related to this project from** [here]() -->
+<i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
-
-
-
-
-
-## Setup (APIs used)
-Following APIs are required to run this web app:
-
-- [Codeforces Problem Set API](https://codeforces.com/api/problemset.problems?tags=implementation)
-- [Codeforces User Status API](https://codeforces.com/api/user.status?handle=Fefer_Ivan&from=1&count=10)
-- [Rapid Judge API](https://judge0-ce.p.rapidapi.com/submissions)
-
-## Instructions
-
-#### Environment Variables
-- Place the API keys in `.env` with your own
-
-## How to run?
-Install dependencies
-- Inside both codefry and server directories
-```` 
-npm install
-```` 
-Run local Database server
-```` 
-mongod
-```` 
-Inside server
-```` 
-node index.js
-````
-Inside codefry
-```` 
-npm start
-````
-
-## File Structure
-```
-.
-├── codefry
-│   ├── build
-│   │   ├── asset-manifest.json
-│   │   ├── favicon.ico
-│   │   ├── index.html
-│   │   ├── logo192.png
-│   │   ├── logo512.png
-│   │   ├── manifest.json
-│   │   ├── robots.txt
-│   │   └── static
-│   │       ├── css
-│   │       │   ├── 2.79f7406e.chunk.css
-│   │       │   ├── 2.79f7406e.chunk.css.map
-│   │       │   ├── main.59b704f4.chunk.css
-│   │       │   └── main.59b704f4.chunk.css.map
-│   │       ├── js
-│   │       │   ├── 2.a504d56f.chunk.js
-│   │       │   ├── 2.a504d56f.chunk.js.LICENSE.txt
-│   │       │   ├── 2.a504d56f.chunk.js.map
-│   │       │   ├── main.3b598c39.chunk.js
-│   │       │   ├── main.3b598c39.chunk.js.map
-│   │       │   ├── runtime-main.20b21ed7.js
-│   │       │   └── runtime-main.20b21ed7.js.map
-│   │       └── media
-│   │           ├── codefry.7d01d87b.png
-│   │           ├── login-image.bb90099f.png
-│   │           └── register-image.1ccd3674.png
-│   ├── package.json
-│   ├── package-lock.json
-│   ├── public
-│   │   ├── favicon.ico
-│   │   ├── index.html
-│   │   ├── logo192.png
-│   │   ├── logo512.png
-│   │   ├── manifest.json
-│   │   └── robots.txt
-│   ├── README.md
-│   └── src
-│       ├── App.css
-│       ├── App.js
-│       ├── components
-│       │   ├── About
-│       │   │   ├── about.css
-│       │   │   └── about.jsx
-│       │   ├── Auth
-│       │   │   ├── login.css
-│       │   │   ├── login.jsx
-│       │   │   ├── logout.jsx
-│       │   │   ├── register.css
-│       │   │   └── register.jsx
-│       │   ├── CodeForceProblem
-│       │   │   ├── Cards
-│       │   │   │   └── headerCards.jsx
-│       │   │   └── MainPage.jsx
-│       │   ├── common
-│       │   │   ├── 404.jsx
-│       │   │   ├── footer.css
-│       │   │   ├── Footer.jsx
-│       │   │   ├── form.jsx
-│       │   │   ├── input.jsx
-│       │   │   ├── navbar.css
-│       │   │   ├── Navbar.jsx
-│       │   │   └── protectedRoute.jsx
-│       │   ├── CSS
-│       │   │   └── TagComponent.css
-│       │   ├── Editor
-│       │   │   ├── editor.css
-│       │   │   └── editor.jsx
-│       │   ├── Home
-│       │   │   ├── home.css
-│       │   │   └── home.jsx
-│       │   ├── ProblemRow.jsx
-│       │   ├── ProblemSets
-│       │   │   ├── APIs_Data.jsx
-│       │   │   └── showProblems.css
-│       │   ├── tagsData.js
-│       │   ├── TodoList
-│       │   │   ├── create-todo.component.js
-│       │   │   ├── edit-todo.component.js
-│       │   │   └── todos-list.component.js
-│       │   └── UserStatus
-│       │       └── usersolvedproblems.jsx
-│       ├── config.json
-│       ├── images
-│       │   ├── codefry.png
-│       │   ├── login-image.png
-│       │   └── register-image.png
-│       ├── index.css
-│       ├── index.js
-│       └── services
-│           ├── authService.js
-│           ├── httpService.js
-│           └── userService.js
-├── codefrymeet
-│   ├── index.js
-│   ├── package.json
-│   ├── package-lock.json
-│   ├── Procfile
-│   ├── public
-│   │   ├── script.js
-│   │   └── style.css
-│   └── views
-│       └── room.ejs
-├── LICENSE
-├── README.md
-├── screenshots
-│   ├── About.png
-│   ├── CodeEditor.png
-│   ├── createTodo.png
-│   ├── login.png
-│   ├── problems.png
-│   ├── register.png
-│   ├── solved-problems.png
-│   └── todoList.png
-├── server
-│   ├── config
-│   │   └── config.env
-│   ├── index.js
-│   ├── middleware
-│   │   └── isAuth.js
-│   ├── models
-│   │   ├── todo.model.js
-│   │   └── user.js
-│   ├── package.json
-│   ├── package-lock.json
-│   ├── Procfile
-│   └── routes
-│       ├── todos.js
-│       └── user.js
-└── tree.text
-
-31 directories, 99 files
-```
+<br><br>
 
 <!-- ## Features
 - Codefry helps users to improve their coding skills by practising Codeforces problems by their tags. 
@@ -434,11 +303,26 @@ npm start
 - ### Code Editor:
 <p align="center"><img src="screenshots/CodeEditor.png" width = 80%></p><br>
 
-## Future aspects
+<h2 align="center" id="FeaturesWeDemand"> :star: Features We Demand</h2>
 - Displaying graphs to user to show the progress and notify user about upcoming contests.
 - Adding collaborative live code editor
 - Adding other programming languages in the code editor
 - AI and advanced mathematics enabled user's progress detection and suggesting learning paths.
 - Gamification of the Application and planned learning roadmap for the users.
+
+## Contributors:
+### Credit goes to these wonderful people: ✨
+
+<table>
+	<tr>
+		<td>
+   <a href="https://github.com/lavishabhambri/CodeFry/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=lavishabhambri/Codefry" />
+</a>
+		</td>
+	</tr>
+</table>
+
+
 
 ## Hope you like it ❤️
