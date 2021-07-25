@@ -250,9 +250,9 @@ Then add a title and description to your pull request that explains your preciou
 
 
 <h2 align="left" id="DevelopedBy"> :label: Developed By</h2>
- - <a href="https://github.com/lavishabhambri">Lavisha Bhambri</a> 
- - <a href="https://github.com/vaibhavpathak999">Vaibhav Pathak</a> 
- - <a href="https://github.com/devk232">Dev Krishna Sadana</a> 
+ - <a href="https://github.com/lavishabhambri">Lavisha Bhambri</a> </br>
+ - <a href="https://github.com/vaibhavpathak999">Vaibhav Pathak</a> </br>
+ - <a href="https://github.com/devk232">Dev Krishna Sadana</a> </br>
  
 # Note:
 Look into [Contributing Guidelines](https://github.com/kavania2002/MobiMart/blob/main/.github/contributing.md) for contributing to this repository.
@@ -262,16 +262,10 @@ Look into [Contributing Guidelines](https://github.com/kavania2002/MobiMart/blob
 
 <br><br>
 
-<!-- ## Features
-- Codefry helps users to improve their coding skills by practising Codeforces problems by their tags. 
-- The user can also look at their solved problems by logging into their account.
-- A personalised Todo list is available for the users to note down the deadlines of the coding contests and their favourite problems.
-- Users can create personalised room with other coders, run & debug codes and have video and audio calling feature.
-- A code editor is also present for the user to run the code in four languages - C, C++, Python and Java. -->
 
 
 
-## Snapshots
+<h2 align="left" id="ScreenShots"> :label: ScreenShots</h2>
 - ### Problems by their tags:
 <p align="left"><img src="screenshots/problems.png" width = 80%></p><br>
 
@@ -297,11 +291,11 @@ Look into [Contributing Guidelines](https://github.com/kavania2002/MobiMart/blob
 <p align="left"><img src="screenshots/CodeEditor.png" width = 80%></p><br>
 
 <h2 align="left" id="FeaturesWeDemand"> :star: Features We Demand</h2>
-- Displaying graphs to user to show the progress and notify user about upcoming contests.
-- Adding collaborative live code editor
-- Adding other programming languages in the code editor
-- AI and advanced mathematics enabled user's progress detection and suggesting learning paths.
-- Gamification of the Application and planned learning roadmap for the users.
+- Displaying graphs to user to show the progress and notify user about upcoming contests. </br>
+- Adding collaborative live code editor.</br>
+- Adding other programming languages in the code editor.</br>
+- AI and advanced mathematics enabled user's progress detection and suggesting learning paths.</br>
+- Gamification of the Application and planned learning roadmap for the users.</br>
 
 ## Contributors:
 ### Credit goes to these wonderful people: ✨
