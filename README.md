@@ -1,5 +1,5 @@
 
-<h1 align="center">CODEFRY - A Programming Community Application</h1>
+<h1 align="left">CODEFRY - A Programming Community Application</h1>
 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
@@ -8,7 +8,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
 
-<h2 align="center" id="content"> 🗂 CONTENT:</h2>
+<h2 align="left" id="content"> 🗂 CONTENT:</h2>
 
 
 1. [Inspiration](#Inspiration)<br>
@@ -22,7 +22,7 @@
 
 <br>
 
-<h2 align="center" id="Inspiration"> :label: Inspiration</h2>
+<h2 align="left" id="Inspiration"> :label: Inspiration</h2>
 Considering the present condition due to Covid-19, distant and remote learning has been of everyone's life. We wanted to give it a try from our end to address the issues faced by programmers in a simpler way.
 
 Using the most powerful weapon with humanity - technology, we decided to solve the issue by introducing Codefry Application. It is a MernStack Web Application, based upon the user’s Codeforces profile handles, helps programmers to code together and eases their tasks in the online schedule.
@@ -38,7 +38,7 @@ Using the most powerful weapon with humanity - technology, we decided to solve t
 - Socket.io
 - Peer.js Library and WebRTC -->
 
-<h2 align="center" id="TechStack"> :label: Tech Stack
+<h2 align="left" id="TechStack"> :label: Tech Stack
 
 - Frontend- HTML, CSS, Bootstarp, Flexbox, Javascript
 - Backend- ejs, Express.js, Node.js
@@ -48,7 +48,7 @@ Using the most powerful weapon with humanity - technology, we decided to solve t
 - Peer.js Library and WebRTC
 
 </h2>
-<i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
+<i><p align="left"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 <br>
 
 ## Setup (APIs used)
@@ -58,7 +58,7 @@ Following APIs are required to run this web app:
 - [Codeforces User Status API](https://codeforces.com/api/user.status?handle=Fefer_Ivan&from=1&count=10)
 - [Rapid Judge API](https://judge0-ce.p.rapidapi.com/submissions)
 
-<h2 align="center" id="Features"> :label: Features</h2>
+<h2 align="left" id="Features"> :label: Features</h2>
 
   #### Main Features
   :point_right: Codefry helps users to improve their coding skills by practising Codeforces problems by their tags. <br>
@@ -66,10 +66,10 @@ Following APIs are required to run this web app:
   :point_right: A personalised Todo list is available for the users to note down the deadlines of the coding contests and their favourite problems.<br>
   :point_right: Users can create personalised room with other coders, run & debug codes and have video and audio calling feature.<br>
   :point_right: A code editor is also present for the user to run the code in four languages - C, C++, Python and Java.<br>
-<i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
+<i><p align="left"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 <br>
 
-<h2 align="center" id="Howtogetstarted?"> ⭐ How to get started?</h2>
+<h2 align="left" id="Howtogetstarted?"> ⭐ How to get started?</h2>
 
 [![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com) <br>
 You can refer to the following articles on the basics of Git and Github and also contact the Project Mentors, in case you are stuck:
@@ -80,7 +80,7 @@ You can refer to the following articles on the basics of Git and Github and also
 - [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
 - [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 
-<i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
+<i><p align="left"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 <br>
 
 ## Instructions
@@ -107,7 +107,7 @@ Inside codefry
 npm start
 ````
 
-<h2 align="center" id="Stepstofollow"> ⭐ Steps to follow :scroll:</h2>
+<h2 align="left" id="Stepstofollow"> ⭐ Steps to follow :scroll:</h2>
 
 <br>
 
@@ -244,12 +244,12 @@ $ git push -u origin Folder_Name
 Then, go to your repository in the browser and click on `compare and pull requests.
 Then add a title and description to your pull request that explains your precious effort.
 
-<i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
+<i><p align="left"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
 <br><br>
 
 
-<h2 align="center" id="DevelopedBy"> :label: Developed By</h2>
+<h2 align="left" id="DevelopedBy"> :label: Developed By</h2>
  - <a href="https://github.com/lavishabhambri">Lavisha Bhambri</a> 
  - <a href="https://github.com/vaibhavpathak999">Vaibhav Pathak</a> 
  - <a href="https://github.com/devk232">Dev Krishna Sadana</a> 
@@ -258,7 +258,7 @@ Then add a title and description to your pull request that explains your preciou
 Look into [Contributing Guidelines](https://github.com/kavania2002/MobiMart/blob/main/.github/contributing.md) for contributing to this repository.
 - Don't make PR directly, make issues first, once you are assigned, start working and then create a PR
 <!-- -**Kindly join the Project Channel for discussions related to this project from** [here]() -->
-<i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
+<i><p align="left"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
 <br><br>
 
@@ -273,30 +273,30 @@ Look into [Contributing Guidelines](https://github.com/kavania2002/MobiMart/blob
 
 ## Snapshots
 - ### Problems by their tags:
-<p align="center"><img src="screenshots/problems.png" width = 80%></p><br>
+<p align="left"><img src="screenshots/problems.png" width = 80%></p><br>
 
 - ### Register:
-<p align="center"><img src="screenshots/register.png" width = 80%></p><br>
+<p align="left"><img src="screenshots/register.png" width = 80%></p><br>
 
 - ### Login:
-<p align="center"><img src="screenshots/login.png" width = 80%></p><br>
+<p align="left"><img src="screenshots/login.png" width = 80%></p><br>
 
 - ### Solved Problems:
-<p align="center"><img src="screenshots/solved-problems.png" width = 80%></p><br>
+<p align="left"><img src="screenshots/solved-problems.png" width = 80%></p><br>
 
 - ### About:
-<p align="center"><img src="screenshots/About.png" width = 80%></p><br>
+<p align="left"><img src="screenshots/About.png" width = 80%></p><br>
 
 - ### Create your Tasks:
-<p align="center"><img src="screenshots/createTodo.png" width = 80%></p><br>
+<p align="left"><img src="screenshots/createTodo.png" width = 80%></p><br>
 
 - ### Task list:
-<p align="center"><img src="screenshots/todoList.png" width = 80%></p><br>
+<p align="left"><img src="screenshots/todoList.png" width = 80%></p><br>
 
 - ### Code Editor:
-<p align="center"><img src="screenshots/CodeEditor.png" width = 80%></p><br>
+<p align="left"><img src="screenshots/CodeEditor.png" width = 80%></p><br>
 
-<h2 align="center" id="FeaturesWeDemand"> :star: Features We Demand</h2>
+<h2 align="left" id="FeaturesWeDemand"> :star: Features We Demand</h2>
 - Displaying graphs to user to show the progress and notify user about upcoming contests.
 - Adding collaborative live code editor
 - Adding other programming languages in the code editor
