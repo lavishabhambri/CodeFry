@@ -496,7 +496,7 @@ class Video extends Component {
 								</IconButton>
 							</Badge>
 
-							<IconButton style={{ color: "#424242" }} onClick={()=> window.open("http://localhost:8000/draw", "_blank")}>
+							<IconButton style={{ color: "#424242" }} onClick={()=> window.open("https://codefry-meet.netlify.app/draw", "_blank")}>
 								<i class="fa fa-paint-brush"></i>
 								</IconButton>
 						</div>
