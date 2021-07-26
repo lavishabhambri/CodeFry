@@ -1,5 +1,5 @@
 
-<h1 align="left">CODEFRY - A Programming Community Application</h1>
+# CODEFRY - A Programming Community Application
 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
@@ -8,48 +8,21 @@
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
 
-<h2 align="left" id="content"> 🗂 CONTENT:</h2>
-
-
-1. [Inspiration](#Inspiration)<br>
-2. [Tech Stack](#TechStack)<br>
-3. [Features](#Features)<br>
-4. [How to get started](#Howtogetstarted?)<br>
-5. [Steps to follow ](#Stepstofollow)<br>
-6. [Developed By](#DevelopedBy)<br>
-7. [ScreenShots](#ScreenShots)<br>
-8. [Features We Demand](#FeaturesWeDemand)<br>
-
-<br>
-
-<h2 align="left" id="Inspiration"> :label: Inspiration</h2>
+## Inspiration:
 Considering the present condition due to Covid-19, distant and remote learning has been of everyone's life. We wanted to give it a try from our end to address the issues faced by programmers in a simpler way.
 
 Using the most powerful weapon with humanity - technology, we decided to solve the issue by introducing Codefry Application. It is a MernStack Web Application, based upon the user’s Codeforces profile handles, helps programmers to code together and eases their tasks in the online schedule.
 
-<i><p align="left"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
-<br>
+## Technology Stack:
+- **Frontend** - React <br>
+- **Backend** - ejs, Express.js, Node.js <br>
+- **IDE** - VS Code <br>
+- **API Testing** - Postman <br>
+- **Version Control** - Git and Github <br>
+- **Database** - MongoDB, Atlas <br>
+- **Other tools & technologies** - Web APIs, Socket.io, Peer.js Library and WebRTC <br>
 
-<!-- - Frontend- HTML, CSS, Bootstarp, Flexbox, Javascript
-- Backend- ejs, Express.js, Node.js
-- Frameworks- React
-- Database- MongoDB, Atlas
-- Socket.io
-- Peer.js Library and WebRTC -->
-
-<h2 align="left" id="TechStack"> :label: Tech Stack
-
-- Frontend- HTML, CSS, Bootstarp, Flexbox, Javascript
-- Backend- ejs, Express.js, Node.js
-- Frameworks- React
-- Database- MongoDB, Atlas
-- Socket.io
-- Peer.js Library and WebRTC
-
-</h2>
-<i><p align="left"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
-<br>
 
 ## Setup (APIs used)
 Following APIs are required to run this web app:
@@ -58,16 +31,47 @@ Following APIs are required to run this web app:
 - [Codeforces User Status API](https://codeforces.com/api/user.status?handle=Fefer_Ivan&from=1&count=10)
 - [Rapid Judge API](https://judge0-ce.p.rapidapi.com/submissions)
 
-<h2 align="left" id="Features"> :label: Features</h2>
 
+## Instructions
+#### Environment Variables
+- Place the API keys in `.env` with your own
+
+#### GitHub Repository Structure
+
+| S.No. | Branch Name | Purpose |
+| --------------- | --------------- | --------------- |
+| 1. | master | contains the main code  |
+| 2. | backend | contains all backend code |
+| 3. | codefry | contains all frontend code |
+| 4. | CodeFry-Video-Meet | contains code for Video-meet & drawing Board |
+
+### Install dependencies
+#### To setup backend and run server locally:
+- `cd server` - to switch to codefry backend
+- `npm install` - to install all the backend packages
+- `node index.js` - to run the server
+
+#### To setup frontend and run server locally:
+- `cd codefry` - to switch to codefry frontend
+- `npm install` - to install all the frontend packages
+- `npm start` - to start the client
+
+#### To run the Video Meet and Drawing board
+- `cd CodeFry-Video-Meet` - to switch to codefry Video-meet & drawing Board
+- `npm install` - to install all the socket.io, WebRTC packages
+
+#### To run the local database
+- `mongod` - to run local database 
+
+
+## Features:
   #### Main Features
   :point_right: Codefry helps users to improve their coding skills by practising Codeforces problems by their tags. <br>
   :point_right: The user can also look at their solved problems by logging into their account.<br>
   :point_right: A personalised Todo list is available for the users to note down the deadlines of the coding contests and their favourite problems.<br>
   :point_right: Users can create personalised room with other coders, run & debug codes and have video and audio calling feature.<br>
   :point_right: A code editor is also present for the user to run the code in four languages - C, C++, Python and Java.<br>
-<i><p align="left"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
-<br>
+
 
 <h2 align="left" id="Howtogetstarted?"> ⭐ How to get started?</h2>
 
@@ -83,29 +87,7 @@ You can refer to the following articles on the basics of Git and Github and also
 <i><p align="left"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 <br>
 
-## Instructions
 
-#### Environment Variables
-- Place the API keys in `.env` with your own
-
-## How to run?
-Install dependencies
-- Inside both codefry and server directories
-```` 
-npm install
-```` 
-Run local Database server
-```` 
-mongod
-```` 
-Inside server
-```` 
-node index.js
-````
-Inside codefry
-```` 
-npm start
-````
 
 <h2 align="left" id="Stepstofollow"> ⭐ Steps to follow :scroll:</h2>
 
