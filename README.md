@@ -10,7 +10,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) ![Maintenance](https://img.shields.io/maintenance/yes/2021)
 
-<p align="center"><img src="screenshots/Code FRY-logo.png" width = 30% height=30%></p><br>
+<p align="left"><img src="screenshots/Code FRY-logo.png" width = 30% height=30%></p><br>
 
 
 ## Inspiration:
