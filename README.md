@@ -18,6 +18,14 @@ Considering the present condition due to Covid-19, distant and remote learning h
 
 Using the most powerful weapon with humanity - technology, we decided to solve the issue by introducing Codefry Application. It is a MernStack Web Application, based upon the user’s Codeforces profile handles, helps programmers to code together and eases their tasks in the online schedule.
 
+## Links of the Application:
+
+| S.No. | Name | Link |
+| --------------- | --------------- | --------------- |
+| 1. | **Frontend** | https://codefry.netlify.app/ |
+| 2. | **Backend** | https://codefry-server.herokuapp.com/ |
+| 3. | **Video meet & drawing-board** | https://codefrymeet.herokuapp.com/ |
+ 
 
 ## Technology Stack:
 - **Frontend** - React <br>
@@ -87,11 +95,14 @@ Following APIs are required to run this web app:
 
 ## Features:
   #### Main Features
-  - [x] Codefry helps users to improve their coding skills by practising Codeforces problems by their tags. <br>
-  - [x] The user can also look at their solved problems by logging into their account.<br>
-  - [x] A personalised Todo list is available for the users to note down the deadlines of the coding contests and their favourite problems.<br>
-  - [x] Users can create personalised room with other coders, run & debug codes and have video and audio calling feature.<br>
-  - [x] A code editor is also present for the user to run the code in four languages - C, C++, Python and Java.<br>
+  - [x] **Programming skills** - Codefry helps users to improve their coding skills by practising Codeforces problems by their tags. <br>
+  - [x] **Tags based problems** - Users can also look at all the Codeforces problems on the basis of problem tags (ex-array, dp, greedy, etc.) <br>
+  - [x] **Login and Signup Authentication** - Every user has to create his/her account to access personalised features. <br>
+  - [x] **Codeforces solved problems** - The user can also look at their solved problems by logging into their account & putting the Codeforces handle.<br>
+  - [x] **Todo list** - A personalised Todo list is available for the users to note down the deadlines of the coding contests with the feature **add to favorites**.<br>
+  - [x] **Coding rooms** - Users can create personalised coding room with other coders, run & debug codes and have **video, audio calling, screen-share** feature.<br>
+  - [x] **Drawing Notepad** - The users can also use the online drawing notepad to explain the problems pictorially to the other coders.<br>
+  - [x] **Code Editor** - A code editor is also present for the user to run the code in four languages - C, C++, Python and Java.<br>
 
 
 ## How to get started?
