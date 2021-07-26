@@ -21,7 +21,7 @@ import Modal from 'react-bootstrap/Modal'
 import 'bootstrap/dist/css/bootstrap.css'
 import "./Video.css"
 
-const server_url = process.env.NODE_ENV === 'production' ? 'https://video.sebastienbiollo.com' : "http://localhost:4001"
+const server_url = process.env.NODE_ENV === 'production' ? 'https://codefrymeet.herokuapp.com/' : "http://localhost:4001"
 
 var connections = {}
 const peerConnectionConfig = {
@@ -496,7 +496,7 @@ class Video extends Component {
 								</IconButton>
 							</Badge>
 
-							<IconButton style={{ color: "#424242" }} onClick={()=> window.open("http://localhost:8000/draw", "_blank")}>
+							<IconButton style={{ color: "#424242" }} onClick={()=> window.open(" https://codefrymeet.herokuapp.com/draw", "_blank")}>
 								<i class="fa fa-paint-brush"></i>
 								</IconButton>
 						</div>

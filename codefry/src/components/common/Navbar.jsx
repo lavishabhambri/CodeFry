@@ -70,7 +70,7 @@ class Navbar extends Component {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white no-decoration" target="_blank" href="https://codefry-meet.herokuapp.com/">
+              <a className="nav-link text-white no-decoration" target="_blank" href=" https://codefrymeet.herokuapp.com/">
                 <span className="navbar-item">Meet</span>{" "}
               </a>
             </li>
