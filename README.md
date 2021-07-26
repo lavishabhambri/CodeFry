@@ -113,11 +113,9 @@ $ cd Codefry
 
 Move to this folder for all other commands.
 
-<br>
-
 ### 4. Set it up
 
-Run the following commands to see that *your local copy* has a reference to *your forked remote repository* in Github :octocat:
+Run the following commands to see that *your local copy* has a reference to *your forked remote repository* in Github
 
 ```sh
 $ git remote -v
@@ -166,7 +164,6 @@ $ git push origin master
 
 Once you have completed these steps, you are ready to start contributing by checking our `Help Wanted` Issues and creating [pull requests](https://github.com/lavishabhambri/CodeFry/pulls).
 
-<br>
 
 ### 7. Create a new branch
 
@@ -199,8 +196,6 @@ Type in a message relevant for the code reviewer using
 # This message get associated with all files you have changed
 $ git commit -m 'relevant message'
 ```
-
-<br>
 
 
 ### 9. Share your work
@@ -252,6 +247,7 @@ Look into [Contributing Guidelines](https://github.com/kavania2002/MobiMart/blob
 
 
 <h2 align="left" id="ScreenShots"> :label: ScreenShots</h2>
+
 - ### Problems by their tags:
 <p align="center"><img src="screenshots/problems.png" width = 80%></p><br>
 
