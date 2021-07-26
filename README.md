@@ -66,14 +66,14 @@ Following APIs are required to run this web app:
 
 ## Features:
   #### Main Features
-  :point_right: Codefry helps users to improve their coding skills by practising Codeforces problems by their tags. <br>
-  :point_right: The user can also look at their solved problems by logging into their account.<br>
-  :point_right: A personalised Todo list is available for the users to note down the deadlines of the coding contests and their favourite problems.<br>
-  :point_right: Users can create personalised room with other coders, run & debug codes and have video and audio calling feature.<br>
-  :point_right: A code editor is also present for the user to run the code in four languages - C, C++, Python and Java.<br>
+  - Codefry helps users to improve their coding skills by practising Codeforces problems by their tags. <br>
+  - The user can also look at their solved problems by logging into their account.<br>
+  - A personalised Todo list is available for the users to note down the deadlines of the coding contests and their favourite problems.<br>
+  - Users can create personalised room with other coders, run & debug codes and have video and audio calling feature.<br>
+  - A code editor is also present for the user to run the code in four languages - C, C++, Python and Java.<br>
 
 
-<h2 align="left" id="Howtogetstarted?"> ⭐ How to get started?</h2>
+## How to get started?
 
 [![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com) <br>
 You can refer to the following articles on the basics of Git and Github and also contact the Project Mentors, in case you are stuck:
@@ -84,25 +84,17 @@ You can refer to the following articles on the basics of Git and Github and also
 - [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
 - [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 
-<i><p align="left"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
-<br>
 
-
-
-<h2 align="left" id="Stepstofollow"> ⭐ Steps to follow :scroll:</h2>
-
-<br>
-
-### 0️⃣ Code of conduct
+## Steps to follow:
+### 1. Code of conduct
 
 Please read our [Code of conduct](./CODE_OF_CONDUCT.md) which stipulates explicitly that everyone must be gracious, respectful, and professional. This also documents our conflict resolution policy.
 
-### 1️⃣ Fork it :fork_and_knife:
-
+### 2. Fork it
 You can get your own fork/copy of [Codefry](https://github.com/lavishabhambri/CodeFry) by using the <kbd><b>Fork</b></kbd> button.
 <br>
 
-### 2️⃣ Clone it :busts_in_silhouette:
+### 3. Clone it
 
 You need to clone (download) it to a local machine using
 
@@ -123,7 +115,7 @@ Move to this folder for all other commands.
 
 <br>
 
-### 3️⃣ Set it up :arrow_up:
+### 4. Set it up
 
 Run the following commands to see that *your local copy* has a reference to *your forked remote repository* in Github :octocat:
 
@@ -149,9 +141,8 @@ origin    https://github.com/Your_Username/CodeFry.git (push)
 upstream  https://github.com/lavishabhambri/CodeFry.git (fetch)
 upstream  https://github.com/lavishabhambri/CodeFry.git (push)
 ```
-<br>
 
-### 4️⃣ Sync it :recycle:
+### 5. Sync it
 
 Always keep your local copy of the repository updated with the original repository.
 Before making any changes and/or in an appropriate interval, run the following commands *carefully* to update your local repository.
@@ -169,17 +160,15 @@ $ git reset --hard upstream/master
 # Push changes to your forked `Codefry` repo
 $ git push origin master
 ```
-<br>
 
 
-
-### 5️⃣ Ready Steady Go... :turtle: :rabbit2:
+### 6. Ready Steady Go...
 
 Once you have completed these steps, you are ready to start contributing by checking our `Help Wanted` Issues and creating [pull requests](https://github.com/lavishabhambri/CodeFry/pulls).
 
 <br>
 
-### 6️⃣ Create a new branch :bangbang:
+### 7. Create a new branch
 
 Whenever you are going to make a contribution. Please create a separate branch using command and keep your `master` branch clean (i.e. synced with remote branch).
 
@@ -214,7 +203,7 @@ $ git commit -m 'relevant message'
 <br>
 
 
-### 8️⃣ Share your work :star_struck:
+### 9. Share your work
 
 Now, Push your awesome work to your remote repository using
 
@@ -223,64 +212,67 @@ Now, Push your awesome work to your remote repository using
 $ git push -u origin Folder_Name
 ```
 
-Then, go to your repository in the browser and click on `compare and pull requests.
+Then, go to your repository in the browser and click on `compare and pull requests.`
 Then add a title and description to your pull request that explains your precious effort.
 
-<i><p align="left"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
-<br><br>
+## Team:
 
+> Team Members
 
-<h2 align="left" id="DevelopedBy"> :label: Developed By</h2>
- - <a href="https://github.com/lavishabhambri">Lavisha Bhambri</a> </br>
- - <a href="https://github.com/vaibhavpathak999">Vaibhav Pathak</a> </br>
- - <a href="https://github.com/devk232">Dev Krishna Sadana</a> </br>
+| S.No. | Team Member Name | Role | GitHub Username |
+| --------------- | --------------- | --------------- | --------------- |
+| 1. | Lavisha Bhambri(Team Leader) | Mernstack Development | [@lavishabhambri](https://github.com/lavishabhambri) |
+| 2. | Vaibhav Pathak | Backend Development | [@vaibhavpathak999](https://github.com/vaibhavpathak999) |
+| 3. | Dev Krishna Sadana | Backend Development | [@devk232](https://github.com/devk232) |
+
+<img src="https://avatars.githubusercontent.com/u/56781728?v=4" width=120px height=120px /></a>
+<img src="https://avatars.githubusercontent.com/u/51280899?v=4" width=120px height=120px /></a>
+<img src="https://avatars.githubusercontent.com/u/59441868?v=4" width=120px height=120px /></a>
  
-# Note:
+<!-- # Note:
 Look into [Contributing Guidelines](https://github.com/kavania2002/MobiMart/blob/main/.github/contributing.md) for contributing to this repository.
-- Don't make PR directly, make issues first, once you are assigned, start working and then create a PR
+- Don't make PR directly, make issues first, once you are assigned, start working and then create a PR -->
 <!-- -**Kindly join the Project Channel for discussions related to this project from** [here]() -->
-<i><p align="left"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
-
-<br><br>
-
 
 
 
 <h2 align="left" id="ScreenShots"> :label: ScreenShots</h2>
 - ### Problems by their tags:
-<p align="left"><img src="screenshots/problems.png" width = 80%></p><br>
+<p align="center"><img src="screenshots/problems.png" width = 80%></p><br>
 
 - ### Register:
-<p align="left"><img src="screenshots/register.png" width = 80%></p><br>
+<p align="center"><img src="screenshots/register.png" width = 80%></p><br>
 
 - ### Login:
-<p align="left"><img src="screenshots/login.png" width = 80%></p><br>
+<p align="center"><img src="screenshots/login.png" width = 80%></p><br>
 
 - ### Solved Problems:
-<p align="left"><img src="screenshots/solved-problems.png" width = 80%></p><br>
+<p align="center"><img src="screenshots/solved-problems.png" width = 80%></p><br>
 
 - ### About:
-<p align="left"><img src="screenshots/About.png" width = 80%></p><br>
+<p align="center"><img src="screenshots/About.png" width = 80%></p><br>
 
 - ### Create your Tasks:
-<p align="left"><img src="screenshots/createTodo.png" width = 80%></p><br>
+<p align="center"><img src="screenshots/createTodo.png" width = 80%></p><br>
 
 - ### Task list:
-<p align="left"><img src="screenshots/todoList.png" width = 80%></p><br>
+<p align="center"><img src="screenshots/todoList.png" width = 80%></p><br>
 
 - ### Code Editor:
-<p align="left"><img src="screenshots/CodeEditor.png" width = 80%></p><br>
+<p align="center"><img src="screenshots/CodeEditor.png" width = 80%></p><br>
 
-<h2 align="left" id="FeaturesWeDemand"> :star: Features We Demand</h2>
+## Features We Demand:
+
 - Displaying graphs to user to show the progress and notify user about upcoming contests. </br>
 - Adding collaborative live code editor.</br>
 - Adding other programming languages in the code editor.</br>
 - AI and advanced mathematics enabled user's progress detection and suggesting learning paths.</br>
 - Gamification of the Application and planned learning roadmap for the users.</br>
 
+
 ## Contributors:
-### Credit goes to these wonderful people: ✨
+### Credit goes to these wonderful people:
 
 <table>
 	<tr>
