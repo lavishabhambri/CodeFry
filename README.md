@@ -218,7 +218,7 @@ Then add a title and description to your pull request that explains your preciou
 
 ## Team:
 
-> Team Members
+> Team Members:
 
 | S.No. | Team Member Name | Role | GitHub Username |
 | --------------- | --------------- | --------------- | --------------- |
@@ -229,6 +229,20 @@ Then add a title and description to your pull request that explains your preciou
 <img src="https://avatars.githubusercontent.com/u/56781728?v=4" width=120px height=120px /></a>
 <img src="https://avatars.githubusercontent.com/u/51280899?v=4" width=120px height=120px /></a>
 <img src="https://avatars.githubusercontent.com/u/59441868?v=4" width=120px height=120px /></a>
+
+> Contributors:
+
+Credit goes to these wonderful people:
+
+<table>
+	<tr>
+		<td>
+   <a href="https://github.com/lavishabhambri/CodeFry/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=lavishabhambri/Codefry" />
+</a>
+		</td>
+	</tr>
+</table>
  
 <!-- # Note:
 Look into [Contributing Guidelines](https://github.com/kavania2002/MobiMart/blob/main/.github/contributing.md) for contributing to this repository.
@@ -269,21 +283,6 @@ Look into [Contributing Guidelines](https://github.com/kavania2002/MobiMart/blob
 - Adding other programming languages in the code editor.</br>
 - AI and advanced mathematics enabled user's progress detection and suggesting learning paths.</br>
 - Gamification of the Application and planned learning roadmap for the users.</br>
-
-
-## Contributors:
-### Credit goes to these wonderful people:
-
-<table>
-	<tr>
-		<td>
-   <a href="https://github.com/lavishabhambri/CodeFry/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=lavishabhambri/Codefry" />
-</a>
-		</td>
-	</tr>
-</table>
-
 
 
 ## Hope you like it ❤️
