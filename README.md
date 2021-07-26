@@ -10,6 +10,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) ![Maintenance](https://img.shields.io/maintenance/yes/2021)
 
+<p align="center"><img src="screenshots/Code FRY-logo.png" width = 30% height=30%></p><br>
+
+
 ## Inspiration:
 Considering the present condition due to Covid-19, distant and remote learning has been of everyone's life. We wanted to give it a try from our end to address the issues faced by programmers in a simpler way.
 
@@ -40,12 +43,13 @@ Following APIs are required to run this web app:
 
 #### GitHub Repository Structure
 
-| S.No. | Branch Name | Purpose |
+| S.No. | Directory Name | Purpose |
 | --------------- | --------------- | --------------- |
 | 1. | master | contains the main code  |
 | 2. | backend | contains all backend code |
 | 3. | codefry | contains all frontend code |
 | 4. | CodeFry-Video-Meet | contains code for Video-meet & drawing Board |
+| 5. | screenshots | contains all the screenshots |
 
 ### Install dependencies
 <details>
@@ -252,7 +256,7 @@ Then add a title and description to your pull request that explains your preciou
 
 | S.No. | Team Member Name | Role | GitHub Username :octocat: |
 | --------------- | --------------- | --------------- | --------------- |
-| 1. | Lavisha Bhambri(Team Leader) | Mernstack Development | [@lavishabhambri](https://github.com/lavishabhambri) |
+| 1. | Lavisha Bhambri | Mernstack Development | [@lavishabhambri](https://github.com/lavishabhambri) |
 | 2. | Vaibhav Pathak | Backend Development | [@vaibhavpathak999](https://github.com/vaibhavpathak999) |
 | 3. | Dev Krishna Sadana | Backend Development | [@devk232](https://github.com/devk232) |
 
