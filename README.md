@@ -8,6 +8,8 @@
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) ![Maintenance](https://img.shields.io/maintenance/yes/2021)
+
 ## Inspiration:
 Considering the present condition due to Covid-19, distant and remote learning has been of everyone's life. We wanted to give it a try from our end to address the issues faced by programmers in a simpler way.
 
@@ -46,31 +48,46 @@ Following APIs are required to run this web app:
 | 4. | CodeFry-Video-Meet | contains code for Video-meet & drawing Board |
 
 ### Install dependencies
-#### To setup backend and run server locally:
+<details>
+  <summary><strong>To setup backend and run server locally:</strong></summary>
+
 - `cd server` - to switch to codefry backend
 - `npm install` - to install all the backend packages
 - `node index.js` - to run the server
+</details>
 
-#### To setup frontend and run server locally:
+
+<details>
+  <summary><strong>To setup frontend and run server locally:</strong></summary>
+	
 - `cd codefry` - to switch to codefry frontend
 - `npm install` - to install all the frontend packages
 - `npm start` - to start the client
+</details>
 
-#### To run the Video Meet and Drawing board
+
+<details>
+  <summary><strong>To run the Video Meet and Drawing board:</strong></summary>
+	
 - `cd CodeFry-Video-Meet` - to switch to codefry Video-meet & drawing Board
 - `npm install` - to install all the socket.io, WebRTC packages
+</details>
 
-#### To run the local database
+
+<details>
+  <summary><strong>To run the local database:</strong></summary> 
+	
 - `mongod` - to run local database 
+</details>
 
 
 ## Features:
   #### Main Features
-  - Codefry helps users to improve their coding skills by practising Codeforces problems by their tags. <br>
-  - The user can also look at their solved problems by logging into their account.<br>
-  - A personalised Todo list is available for the users to note down the deadlines of the coding contests and their favourite problems.<br>
-  - Users can create personalised room with other coders, run & debug codes and have video and audio calling feature.<br>
-  - A code editor is also present for the user to run the code in four languages - C, C++, Python and Java.<br>
+  - [x] Codefry helps users to improve their coding skills by practising Codeforces problems by their tags. <br>
+  - [x] The user can also look at their solved problems by logging into their account.<br>
+  - [x] A personalised Todo list is available for the users to note down the deadlines of the coding contests and their favourite problems.<br>
+  - [x] Users can create personalised room with other coders, run & debug codes and have video and audio calling feature.<br>
+  - [x] A code editor is also present for the user to run the code in four languages - C, C++, Python and Java.<br>
 
 
 ## How to get started?
@@ -86,15 +103,23 @@ You can refer to the following articles on the basics of Git and Github and also
 
 
 ## Steps to follow:
-### 1. Code of conduct
+<details>
+  <summary><strong>1. Code of conduct</strong></summary> 
 
 Please read our [Code of conduct](./CODE_OF_CONDUCT.md) which stipulates explicitly that everyone must be gracious, respectful, and professional. This also documents our conflict resolution policy.
+</details>
 
-### 2. Fork it
+
+<details>
+  <summary><strong>2. Fork it</strong></summary> 
+
 You can get your own fork/copy of [Codefry](https://github.com/lavishabhambri/CodeFry) by using the <kbd><b>Fork</b></kbd> button.
 <br>
+</details>
 
-### 3. Clone it
+
+<details>
+  <summary><strong>3. Clone it</strong></summary> 
 
 You need to clone (download) it to a local machine using
 
@@ -112,8 +137,10 @@ $ cd Codefry
 ```
 
 Move to this folder for all other commands.
+</details>
 
-### 4. Set it up
+<details>
+  <summary><strong>4. Set it up</strong></summary> 
 
 Run the following commands to see that *your local copy* has a reference to *your forked remote repository* in Github
 
@@ -139,8 +166,11 @@ origin    https://github.com/Your_Username/CodeFry.git (push)
 upstream  https://github.com/lavishabhambri/CodeFry.git (fetch)
 upstream  https://github.com/lavishabhambri/CodeFry.git (push)
 ```
+</details>
 
-### 5. Sync it
+
+<details>
+  <summary><strong>5. Sync it</strong></summary> 
 
 Always keep your local copy of the repository updated with the original repository.
 Before making any changes and/or in an appropriate interval, run the following commands *carefully* to update your local repository.
@@ -158,14 +188,17 @@ $ git reset --hard upstream/master
 # Push changes to your forked `Codefry` repo
 $ git push origin master
 ```
+</details>
 
-
-### 6. Ready Steady Go...
+<details>
+  <summary><strong>6. Ready Steady Go...</strong></summary> 
 
 Once you have completed these steps, you are ready to start contributing by checking our `Help Wanted` Issues and creating [pull requests](https://github.com/lavishabhambri/CodeFry/pulls).
+</details>
 
 
-### 7. Create a new branch
+<details>
+  <summary><strong>7. Create a new branch</strong></summary> 
 
 Whenever you are going to make a contribution. Please create a separate branch using command and keep your `master` branch clean (i.e. synced with remote branch).
 
@@ -196,9 +229,11 @@ Type in a message relevant for the code reviewer using
 # This message get associated with all files you have changed
 $ git commit -m 'relevant message'
 ```
+</details>
 
 
-### 9. Share your work
+<details>
+  <summary><strong>9. Share your work</strong></summary> 
 
 Now, Push your awesome work to your remote repository using
 
@@ -209,13 +244,13 @@ $ git push -u origin Folder_Name
 
 Then, go to your repository in the browser and click on `compare and pull requests.`
 Then add a title and description to your pull request that explains your precious effort.
-
+</details>
 
 ## Team:
 
 > Team Members:
 
-| S.No. | Team Member Name | Role | GitHub Username |
+| S.No. | Team Member Name | Role | GitHub Username :octocat: |
 | --------------- | --------------- | --------------- | --------------- |
 | 1. | Lavisha Bhambri(Team Leader) | Mernstack Development | [@lavishabhambri](https://github.com/lavishabhambri) |
 | 2. | Vaibhav Pathak | Backend Development | [@vaibhavpathak999](https://github.com/vaibhavpathak999) |
@@ -246,7 +281,7 @@ Look into [Contributing Guidelines](https://github.com/kavania2002/MobiMart/blob
 
 
 
-<h2 align="left" id="ScreenShots"> :label: ScreenShots</h2>
+## ScreenShots:
 
 - ### Problems by their tags:
 <p align="center"><img src="screenshots/problems.png" width = 80%></p><br>
